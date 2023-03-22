@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: url('../images/header.avif');
+    background-size: cover;
+    background-position-y: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1, header p {
+    color: white;
+}
+
+header p {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 5px black;
+}
+
+header h1 {
+    font-size: 90px;
+    margin: 0;
+    text-shadow: 2px 2px 5px black;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', cursive;
+}
