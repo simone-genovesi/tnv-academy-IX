@@ -2,129 +2,138 @@
 <html lang="it">
   <head>
     <title>The Net Pizza</title>
-    <link rel="stylesheet" href="./assets/styles/theme.css">
+    <link rel="stylesheet" href="./assets/styles/theme.css" />
   </head>
 
   <body>
     <header>
-      <!-- <img
-        src="./assets/images/header.avif"
-        alt="Una pizza insomma"
-        width="500"
-      /> -->
       <h1>The Net Pizza</h1>
       <p>La vera pizza per sviluppatori</p>
     </header>
 
+    <nav>
+      <h3>The Net Pizza</h3>
+      <ul>
+        <li>Home</li>
+        <li>Pizze</li>
+        <li>Chi Siamo</li>
+      </ul>
+    </nav>
 
     <!-- MENU SECTION -->
-    <h2>Menu</h2>
+    <div class="container">
+      <h2>Menu</h2>
 
-    <h3>Antipasti</h3>
-    <ul>
-      <li>Tagliere di salumi</li>
-      <li>Antipasto di mare</li>
-      <li>Zuppa di cozze</li>
-    </ul>
+      <h3>Antipasti</h3>
+      <ul class="menu-section">
+        <li>Tagliere di salumi <span class="price">13$</span></li>
+        <li>Antipasto di mare </li>
+        <li>Zuppa di cozze</li>
+        <li>Zuppa di cozze</li>
+        <li>Zuppa di cozze</li>
 
-    <h3>Primi</h3>
-    <ul>
-      <li>Pasta alla Carbonara</li>
-      <li>Risotto ai Funghi</li>
-      <li>Pasta Cacio e Pepe</li>
-    </ul>
+      </ul>
 
+      <h3>Primi</h3>
+      <ul class="menu-section">
+        <li>Pasta alla Carbonara</li>
+        <li>Risotto ai Funghi</li>
+        <li>Pasta Cacio e Pepe</li>
+      </ul>
 
-    <h3>Dolci</h3>
-    <ul>
-      <li>Seadas</li>
-      <li>Tiramisù</li>
-      <li>Cheesecake</li>
-    </ul>
+      <h3>Dolci</h3>
+      <ul class="menu-section">
+        <li>Seadas</li>
+        <li>Tiramisù</li>
+        <li>Cheesecake</li>
+      </ul>
 
-    <!-- END MENU SECTION -->
+      <!-- END MENU SECTION -->
 
-    <h2>Contatti</h2>
-    <p>
-      Per <strong>ordinare</strong> le <em>pizze</em> compila il modulo qui
-      sotto:
-    </p>
-    <form>
-      <label for="name">Nome</label>
-      <input type="text" id="name" />
-      <br />
-      <label for="surname">Cognome</label>
-      <input type="text" id="surname" />
-      <br />
-      <label for="order">Scrivi qui il tuo ordine</label>
-      <br />
-      <textarea cols="50" rows="7" id="order"></textarea>
-
-      <fieldset>
-        <legend>Servizi aggiuntivi</legend>
-        <input type="checkbox" name="services" /> Posate
+      <h2>Contatti</h2>
+      <p>
+        Per <strong>ordinare</strong> le <em>pizze</em> compila il modulo qui
+        sotto:
+      </p>
+      <form>
+        <label for="name">Nome</label>
+        <input type="text" id="name" />
         <br />
-        <input type="checkbox" name="services" /> Pizza tagliata
+        <label for="surname">Cognome</label>
+        <input type="text" id="surname" />
         <br />
-        <input type="checkbox" name="services" /> Consegna premium
-      </fieldset>
+        <label for="order">Scrivi qui il tuo ordine</label>
+        <br />
+        <textarea cols="50" rows="7" id="order"></textarea>
 
-      <fieldset>
-        <legend>Servizi di pagamento</legend>
-        <input type="radio" name="payment" /> Contanti
-        <br />
-        <input type="radio" name="payment" /> Satispay
-        <br />
-        <input type="radio" name="payment" /> Carta di Credito
-      </fieldset>
-    </form>
+        <fieldset>
+          <legend>Servizi aggiuntivi</legend>
+          <input type="checkbox" name="services" /> Posate
+          <br />
+          <input type="checkbox" name="services" /> Pizza tagliata
+          <br />
+          <input type="checkbox" name="services" /> Consegna premium
+        </fieldset>
 
-    <h2>Orari di Apertura</h2>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Giorno</th>
-          <th>Mattina</th>
-          <th>Pomeriggio</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Lunedì</td>
-          <td>Chiuso</td>
-          <td>19:30 - 24:00</td>
-        </tr>
-        <tr>
-          <td>Martedì</td>
-          <td>12:00 - 14:30</td>
-          <td>19:30 - 24:00</td>
-        </tr>
-        <tr>
-          <td>Mercoledì</td>
-          <td>12:00 - 14:30</td>
-          <td>19:00 - 24:00</td>
-        </tr>
-        <tr>
-          <td>Giovedì</td>
-          <td>12:00 - 14:30</td>
-          <td>19:00 - 24:00</td>
-        </tr>
-        <tr>
-          <td>Venerdì</td>
-          <td>12:00 - 14:30</td>
-          <td>19:00 - 24:00</td>
-        </tr>
-        <tr>
-          <td>Sabato</td>
-          <td>12:00 - 14:30</td>
-          <td>19:00 - 24:00</td>
-        </tr>
-        <tr>
-          <td>Domenica</td>
-          <td>12:00 - 14:30</td>
-          <td>19:00 - 24:00</td>
-        </tr>
-      </tbody>
-    </table>
+        <fieldset>
+          <legend>Servizi di pagamento</legend>
+          <input type="radio" name="payment" /> Contanti
+          <br />
+          <input type="radio" name="payment" /> Satispay
+          <br />
+          <input type="radio" name="payment" /> Carta di Credito
+        </fieldset>
+      </form>
+    </div>
+
+    <footer>
+      <h2>Orari di Apertura</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Giorno</th>
+            <th>Mattina</th>
+            <th>Pomeriggio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunedì</td>
+            <td>Chiuso</td>
+            <td>19:30 - 24:00</td>
+          </tr>
+          <tr>
+            <td>Martedì</td>
+            <td>12:00 - 14:30</td>
+            <td>19:30 - 24:00</td>
+          </tr>
+          <tr>
+            <td>Mercoledì</td>
+            <td>12:00 - 14:30</td>
+            <td>19:00 - 24:00</td>
+          </tr>
+          <tr>
+            <td>Giovedì</td>
+            <td>12:00 - 14:30</td>
+            <td>19:00 - 24:00</td>
+          </tr>
+          <tr>
+            <td>Venerdì</td>
+            <td>12:00 - 14:30</td>
+            <td>19:00 - 24:00</td>
+          </tr>
+          <tr>
+            <td>Sabato</td>
+            <td>12:00 - 14:30</td>
+            <td>19:00 - 24:00</td>
+          </tr>
+          <tr>
+            <td>Domenica</td>
+            <td>12:00 - 14:30</td>
+            <td>19:00 - 24:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
   </body>
 </html>
