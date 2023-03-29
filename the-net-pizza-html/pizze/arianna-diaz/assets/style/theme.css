@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+    --primary:#D9A86C;
+    --secondary:#8C2703;
+    --accent:#D98E04;
+    --beige:#D9C7C1;
+    --newred:#BF5B04;
+    --forest:#324908;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue", cursive;
+}
+
+.navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+header h1{
+    color: white;
+    font-size: 130px;
+    margin:0;
+    text-shadow: 0px 0px 0px #D98E04;
+}
+header h2{
+    color: white;
+    font-size: 40px;
+    margin:0;
+    text-shadow: 2px 2px 4px #D98E04;
+    font-family: "Pacifico", cursive;
+}
+
+h1, h2 {
+    color: var(--secondary);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 64px;
+    padding-top: 34px;
+}
+
+.container section {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+
+@media screen and (max-width: 600px) { 
+    header h1 {
+        margin-top: 42px;;
+        font-size: 4rem;
+    }
+    
+    header p {
+        color: white;
+        font-family: 'Pacifico', cursive;
+        font-size: 1.5rem;
+    }
+
+    header {
+        height: 350px;
+    }
+
+    .section-title  {
+        font-size: 2.5em;
+    }
+}
+
+a {
+    color: var(--darkred);
+}
+
+a:hover{
+    color: var(--newred);
+}
+
+a:active{
+    color: #8C2703;
+}
+
+.ingredienti li {
+    color: #8C2703;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/arianna-pizza-banner.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 3px 5px #D9C7C1;
+    text-shadow:3px 2px 4px #8C2703;
+}
+
+
+@media screen and (min-width: 600px) {
+   h1{font-size:100px;}
+}
+
+.ingredienti-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.ingredienti-section li {
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #D9C7C1;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #D9C7C1;
+    width:180px;
+    height: 100px;
+    position: relative;
+}
+
+.ingredienti-section li span.quantity{
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
+nav {
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9C7C1;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 16px;
+}
+
+.section-title {
+    color: var(--secondary);
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.separator {
+    width: 500px;
+    height: 4px;
+    background-color: var(--primary);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+table {
+    border: 0 solid --beige;
+    width: 80%;
+}
+
+table td, table th {
+    padding: 4px;
+    text-align: left;
+}
+
+table th {
+    background-color: white;
+    color: #8C2703;
+}
+
+input[type="submit"] {
+    margin: 8px 0;
+    background-color: var(--secondary);
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+.ingredienti .card {
+    border-color: none;
+    border-style: hidden;
+    box-shadow: 2px 2px 10px var(--beige);
+}
+
+.card {
+    border-color: none;
+    border-style: hidden;    
+}
+
+.ingredienti .col-3 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+footer {
+    background-color: var(--secondary);
+    color: white;
+}
+
+footer h1,h2,h3 {
+    color: white;
+}
+
+.list-group li {
+    position: relative;
+}
+
+.list-group list-group-flush li span.val ¶{
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
