@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&family=Satisfy&display=swap');
 
 :root {
     --primary:#D9A86C;
@@ -8,7 +6,7 @@
     --accent:#D98E04;
     --beige:#D9C7C1;
     --newred:#BF5B04;
-    --forest:#324908;
+    --contrast:#324908;
 }
 
 body{
@@ -42,7 +40,8 @@ header h2{
     font-size: 40px;
     margin:0;
     text-shadow: 2px 2px 4px #D98E04;
-    font-family: "Pacifico", cursive;
+    font-family: "Satisfy", cursive;
+    
 }
 
 h1, h2 {
@@ -70,16 +69,12 @@ h1, h2 {
     
     header p {
         color: white;
-        font-family: 'Pacifico', cursive;
+        font-family: 'Satisfy', cursive;
         font-size: 1.5rem;
     }
 
     header {
         height: 350px;
-    }
-
-    .section-title  {
-        font-size: 2.5em;
     }
 }
 
@@ -92,10 +87,6 @@ a:hover{
 }
 
 a:active{
-    color: #8C2703;
-}
-
-.ingredienti li {
     color: #8C2703;
 }
 
@@ -118,57 +109,29 @@ header {
    h1{font-size:100px;}
 }
 
-.ingredienti-section {
+.ingredienti-sect {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
     list-style-type: none;
 }
 
-.ingredienti-section li {
-    padding: 8px;
-    margin: 8px;
-    border: 1px solid #D9C7C1;
-    border-radius: 5px;
-    box-shadow: 2px 2px 4px #D9C7C1;
-    width:180px;
-    height: 100px;
-    position: relative;
-}
-
-.ingredienti-section li span.quantity{
+.ingredienti-sect div span.quantity{
     position: absolute;
-    right: 8px;
-    bottom: 8px;
-}
-
-nav {
-    position: fixed;
-    top: 0; 
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #D9C7C1;
-}
-
-nav ul{
-    display: flex;
-    list-style-type: none;
-}
-
-nav ul li {
-    margin-right: 16px;
+    right: 20px;
+    bottom: 15px;
 }
 
 .section-title {
     color: var(--secondary);
     text-align: center;
     font-size: 3rem;
+    text-align: center;
     margin: 0;
 }
 
 .separator {
-    width: 500px;
+    width: 150px;
     height: 4px;
     background-color: var(--primary);
     margin: 0 auto;
@@ -187,50 +150,40 @@ table td, table th {
 
 table th {
     background-color: white;
-    color: #8C2703;
+    color: var(--secondary);
 }
 
-input[type="submit"] {
-    margin: 8px 0;
-    background-color: var(--secondary);
-    border: 0;
-    border-radius: 5px;
-    padding: 8px;
-    color: white;
-}
-
-.ingredienti .card {
+.ingredienti-sect .card {
     border-color: none;
     border-style: hidden;
     box-shadow: 2px 2px 10px var(--beige);
+    border-color: none;
+    border-style: hidden;  
 }
 
 .card {
+    height: 350px;
     border-color: none;
-    border-style: hidden;    
-}
-
-.ingredienti .col-3 {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    border-style: hidden;   
+    margin-bottom: 20px; 
 }
 
 footer {
-    background-color: var(--secondary);
+    background-color: var(--contrast);
     color: white;
+    padding: 10px 10px 10px 10px;
 }
 
 footer h1,h2,h3 {
     color: white;
 }
 
-.list-group li {
-    position: relative;
+.vignetta .card-text {
+    color: var(--beige);
+    font-size: 11px;
 }
 
-.list-group list-group-flush li span.val ¶{
-    position: absolute;
-    right: 8px;
-    bottom: 8px;
-}
+.card-img, .card-img.bottom, .card-img-top {
+    size-adjust:inherit;
+} 
 
