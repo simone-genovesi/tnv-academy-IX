@@ -2,55 +2,247 @@
 <html lang="it">
     <head>
         <title>Gabriel</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+		<link rel="stylesheet" href="./styles/theme.css">
     </head>
     <body>
-        <h1>Pizza Gabriel</h1>
-        <p>Preparata per una dieta sana!</p>
-        </p>
-        <img src="./images/Pizza-wurstel-e-patatine.jpg">
+		<header class="shadow">
+        <h1>Gabriel's Pizza</h1>
+        <p>Preparata per una dieta "sana" !</p>
+	</header>
 
-        <h2>Ingredienti</h2>
-         <ul>
-            <li> <a href="https://it.wikipedia.org/wiki/Salsa_di_pomodoro">Sugo di pomodoro</a> </li> 
-            <li> <a href="https://it.wikipedia.org/wiki/Mozzarella">Mozzarella</a> </li>
-            <li> <a href="https://it.wikipedia.org/wiki/W%C3%BCrstel">Wurstel </a> </li>
-            <li> <a href="https://it.wikipedia.org/wiki/Patate_fritte">Patatine fritte</a> </li>
-         </ul>
+	<nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="../../index.html">THE NET PIZZA</a>
+		  <button
+			class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#navbarNav"
+			aria-controls="navbarNav"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		  >
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#menu">I nostri piatti</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#contacts">Contatti</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+       
+	  <div class ="container">
+		
+        <section class="ingredienti">
+			<div class="row">
+			  <div class="col-12">
+				<h2 class="section-title">Ingredienti</h2>
+				<div class="separator"></div>
+			  </div>
+			</div>
 
-         <h2>Ricetta</h2>
-	      <ol>
-		    <li>Preparare l'impasto</li>
-		    <li>Aggiungere ingredienti</li>
-		    <li>Mettere in forno preriscaldato a 180°C per circa 15 minuti</li>
-	     </ol>
+		<div role="list" class="row">
 
-         <h2>Tabella Nutrizionale</h2>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+				<div class="card shadow">
+					<img src="./images/sugo-al-pomodoro.jpeg" class="card-img-top">
+					<div class="card-body">
+					  <h5 class="card-title">Sugo di pomodoro</h5>
+					  <p class="card-text"></p>
+					  <a href="https://it.wikipedia.org/wiki/Salsa_di_pomodoro" class="btn btn-secondary">Detagli</a>
+					</div>
+				  </div>
+				</div>
 
-          <table border="1">
+				<div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+					<div class="card shadow">
+						<img src="./images/mozarella.jpeg" class="card-img-top">
+						<div class="card-body">
+						  <h5 class="card-title">Mozzarella</h5>
+						  <p class="card-text"></p>
+						  <a href="https://it.wikipedia.org/wiki/Mozzarella" class="btn btn-secondary">Detagli</a>
+						</div>
+					  </div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+						<div class="card shadow">
+							<img src="./images/wurstel.jpeg" class="card-img-top">
+							<div class="card-body">
+							  <h5 class="card-title">Wurstel</h5>
+							  <p class="card-text"></p>
+							  <a href="https://it.wikipedia.org/wiki/W%C3%BCrstel" class="btn btn-secondary">Detagli</a>
+							</div>
+						  </div>
+						</div>
+
+						<div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+							<div class="card shadow">
+								<img src="./images/patatine.jpeg" class="card-img-top">
+								<div class="card-body">
+								  <h5 class="card-title">Patatine</h5>
+								  <p class="card-text"></p>
+								  <a href="https://it.wikipedia.org/wiki/Patate_fritte" class="btn btn-secondary">Dettagli</a>
+								</div>
+							  </div>
+							</div>
+		                </div>
+	                 </section>
+
+	<section class="Ricetta">
+		<div class="row">
+		  <div class="col-12">
+			<h2 class="section-title">Ricetta</h2>
+			<div class="separator"></div>
+		  </div>
+		</div>
+
+		<div role="list" class="row">
+
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+				<div class="card shadow">
+					<img src="./images/Simbolo-OK.jpg" class="card-img-top">
+					<div class="card-body">
+					  <h5 class="card-title">Passo 1.</h5>
+					  <p class="card-text">Voglia di farla</p>
+					</div>
+				  </div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+					<div class="card shadow">
+						<img src="./images/impasto-pizza.jpeg" class="card-img-top">
+						<div class="card-body">
+						  <h5 class="card-title">Passo 2.</h5>
+						  <p class="card-text">Preparare l'impasto</p>
+						</div>
+					  </div>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+						<div class="card shadow">
+							<img src="./images/ingredienti.jpeg" class="card-img-top">
+							<div class="card-body">
+							  <h5 class="card-title">Passo 3.</h5>
+							  <p class="card-text">Aggiungere ingredienti</p>
+							</div>
+						  </div>
+						</div>
+
+						<div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+							<div class="card shadow">
+								<img src="./images/infornare.jpeg" class="card-img-top">
+								<div class="card-body">
+								  <h5 class="card-title">Passo 4.</h5>
+								  <p class="card-text">Infornare a 180°C</p>
+								</div>
+							  </div>
+							</div>
+		                </div>
+		            </section>
+			
+					
+					<section class="Accompagnamento">
+						<div class="row">
+						  <div class="col-12">
+							<h2 class="section-title">Accompagnamento migliore</h2>
+							<div class="separator"></div>
+						  </div>
+						</div>
+
+						<div class="col-6 col-md-6 col-lg-4 mx-auto card text-center">
+							<div class="card shadow">
+								<img src="./images/Ichnusa-bottiglia.jpg" class="card-img-top">
+								<div class="card-body">
+								  <h5 class="card-title">Ichnusa Non Filtrata</h5>
+								</div>
+							  </div>
+							</div>
+						</section>
+
+						<section class="Alergie">
+							<div class="row">
+							  <div class="col-12">
+								<h2 class="section-title">Segnalaci Eventuali Intolleranze</h2>
+								<div class="separator"></div>
+							  </div>
+							</div>
+							
+							<div class="mb-3">
+								<label for="Input1" class="form-label">Nome</label>
+								<input type="email" class="form-control shadow">
+							  </div>
+							  <div class="mb-3">
+								<label for="Input2" class="form-label">Nr. Tavolo</label>
+								<input type="email" class="form-control shadow">
+							  </div>
+							  <div class="mb-3">
+								<label for="Textarea1" class="form-label">Scrivi qui</label>
+								<textarea class="form-control shadow" id="FormControlTextarea1" rows="3"></textarea>
+							  </div>
+							  <div class="mb-3">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							  </div>
+							
+						</section>
+
+		 <section class="Tabella">
+			<div class="row">
+			  <div class="col-12">
+				<h2 class="section-title">Tabella Nutrizionale</h2>
+				<div class="separator"></div>
+			  </div>
+			</div>
+		
+		<table class="table table-bordered table-striped shadow">
 			<thead>
-		     <tr>
-			   <th>Tipo</th>
-			   <th>Quantità</th>
-			   <th>Valore energetico</th>
-			   <th>Proteine</th>
-			   <th>Carboidrati</th>
-			   <th>Grassi</th>
-			   <th>Fibre</th>
-		     </tr>
+			  <tr>
+				<th>Nutriente</th>
+				<th>Quantità per 100 g</th>
+			  </tr>
 			</thead>
 			<tbody>
-		     <tr>
-			   <td>Pizza Gabriel</td>
-			   <td>200g</td>
-			   <td>450 kcal</td>
-			   <td>17g</td>
-			   <td>62g</td>
-			   <td>16g</td>
-			   <td>4g</td>
-		     </tr>
+			  <tr>
+				<td>Calorie</td>
+				<td>266 kcal</td>
+			  </tr>
+			  <tr>
+				<td>Proteine</td>
+				<td>10 g</td>
+			  </tr>
+			  <tr>
+				<td>Carboidrati</td>
+				<td>32 g</td>
+			  </tr>
+			  <tr>
+				<td>Grassi</td>
+				<td>11 g</td>
+			  </tr>
+			  <tr>
+				<td>Fibra</td>
+				<td>2 g</td>
+			  </tr>
+			  <tr>
+				<td>Sodio</td>
+				<td>438 mg</td>
+			  </tr>
 			</tbody>
-	      </table>
+		  </table>
+		</section>
 
-        <a href="../../index.html">Back</a>
+		<a class="btn btn-secondary" href="../../index.html" role="button">Torna indietro</a>
+        
+		</div>
+		
     </body>
 </html>
