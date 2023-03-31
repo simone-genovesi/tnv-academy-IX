@@ -78,6 +78,10 @@ header p {
     font-size: 1.5em;
 }
 
+.recensione h3 {
+    font-size: 1.5em;
+}
+
 a {
     color: #730217;
     text-decoration: none;
@@ -91,6 +95,7 @@ a:hover {
 footer {
     background-color: #8C2703;
     color: white;
+    padding: 20px;
 }
 
 table {
@@ -115,6 +120,18 @@ input[type="submit"] {
     border-radius: 5px;
     padding: 8px;
     color: white;
+}
+
+.row {
+    padding-bottom: 5px;
+}
+
+.row img{
+    margin-top: 5px 
+}
+
+ol {
+    text-align: center;
 }
 
 @media screen and (max-width: 700px) { 
