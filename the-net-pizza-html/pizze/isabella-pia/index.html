@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+
 <html lang="it">
     <head>
         <title>Izzy's Pizza</title>
@@ -7,70 +9,230 @@
         <h1>La pizza di Izzy</h1>
         <img src="./assets/images/pizza3.avif" alt="pizza">
 
-        <p>Pizza cotta in forno a legna, ideata da Isabella Pia</p>
+<head>
+  <title>Izzy's Pizza</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles/theme.css">
+</head>
 
-        <h2>Ricetta</h2>
+<body>
+  <header>
 
-        <h3>Ingredienti</h3>
+    <h1>La pizza di Izzy</h1>
+    <p>Pizza cotta in forno a legna, ideata da Isabella Pia</p>
 
-        <ul>
-            <li><a href="https://it.wikipedia.org/wiki/Farina">Farina</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Acqua">Acqua</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Olio_di_oliva">Olio d'Oliva</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Mozzarella">Mozzarella</a> </li>
-            <li><a href="http://it.wikipedia.org/wiki/Sugo">Sugo della casa</a> </li>
-            <li>Salsiccia secca Sarda</li>
-            <li><a href="https://en.wikipedia.org/wiki/Chili_oil"> Olio piccante</a></li>
+  </header>
+  <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">THE NET PIZZA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">I nostri piatti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Contatti</a>
+          </li>
         </ul>
+      </div>
+    </div>
+  </nav>
 
-        <h3>Procedimento</h3>
 
-        <ol>
-            <li>
-                <img src="./assets/images/pizzaImpasto.avif" alt="passo uno"/>
-                <p>Unire insieme la farina l'acqua e l'olio d'oliva fino
-                    a ottenere un impasto omogeneo e lasciar lievitare
-                   per almeno 3 ore.</p>
-            </li>
-            <li> <img src="./assets/images/pizza2.avif" alt="passo due">
-            <p>Stendere l'impasto e coprire con il sugo, la mozzarella e gli altri 
-                ingredienti</p></li>
-            <li><img src="./assets/images/pizza1.avif" alt="passo 3">
-            <p>Infornare nel forno a legna. Attenzione: la pizza cuoce molto rapidamente,
-                fatela ruotare perchè riceva uniformemente il calore.</p></li>
-                
-            <li> <p>La pizza è pronta!</p></li>
-        </ol>
+  <div class="container">
+    <section class="ricetta">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="section-title">Ricetta</h2>
+          <div class="separator"></div>
+        </div>
+      </div>
+      <div class="row">
 
-        <h3>Velori nutrizionali</h3>
-        <table border 1>
-            <thead>
-                <tr>
-                    <th>Composizione Chimica</th>
-                    <th>Valore per 100g</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Carboidrati complessi</td>
-                    <td>36,40</td>
-                </tr>
-                <tr>
-                    <td>Zuccheri solubili</td>
-                    <td>12,90</td>
-                </tr>
-                <tr>
-                    <td>Proteine</td>
-                    <td>5,60</td>
-                </tr>
-                <tr>
-                    <td>Grassi</td>
-                    <td>5,60</td>
-                </tr>
-            </tbody>
+        <div class="col-12 pt-5 pb-2">
+          <h3>Ingredienti</h3>
+        </div>
+        <div role="list" class="row">
+          <div role="listitem" class=" col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+            <div class="card">
+              <img src="./assets/images/farina.avif" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Farina</h5>
+                <a href="https://it.wikipedia.org/wiki/Farina">Farina</a>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class=" col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+            <div class="card">
+              <img src="./assets/images/acqua.avif" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Acqua</h5>
+                <a href="https://it.wikipedia.org/wiki/Acqua">Acqua</a>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class=" col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+            <div class="card">
+              <img src="./assets/images/olio.avif" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Olio d'Oliva</h5>
+                <a href="https://it.wikipedia.org/wiki/Olio_di_oliva">Olio d'Oliva</a>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class="col-12  col-md-6 col-lg-4 col-xl-3 my-2">
+            <div class="card">
+              <img src="./assets/images/mozzarella.avif" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Mozzarella</h5>
+                <a href="https://it.wikipedia.org/wiki/Mozzarella">Mozzarella</a>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+            <div class="card">
+              <img src="./assets/images/sugo.avif" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Sugo della casa</h5>
+                <a href="http://it.wikipedia.org/wiki/Sugo">Sugo della casa</a>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+            <div class="card">
+              <img src="./assets/images/salsicciasecca.avif" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Salsiccia secca Sarda</h5>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+            <div class="card">
+              <img src="./assets/images/peperoncino.avif" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Olio piccante</h5>
+                <a href="https://en.wikipedia.org/wiki/Chili_oil"> Olio piccante</a>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+            <div class="card">
+              <img src="./assets/images/sale.avif" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Sale</h5>
+                <a href="https://it.wikipedia.org/wiki/Sale"> Sale</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <section class="Procedimento">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="section-title">Procedimento</h2>
+                <div class="separator"></div>
+              </div>
+            </div>
+            <div role="list" class="row">
+              <div role="listitem" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+                <div class="card">
+                  <img src="./assets/images/pizzaImpasto.avif" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Passo 1</h5>
+                    <p>Unire insieme la farina l'acqua e l'olio d'oliva fino
+                      a ottenere un impasto omogeneo e lasciar lievitare
+                      per almeno 3 ore.</p>
+                  </div>
+                </div>
+              </div>
+              <div role="listitem" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+                <div class="card">
+                  <img src="./assets/images/pizza2.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Passo 2</h5>
+                    <p>Stendere l'impasto e coprire con il sugo, la mozzarella e gli altri
+                      ingredienti</p>
+                  </div>
+                </div>
+              </div>
+              <div role="listitem" class=" col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+                <div class="card">
+                  <img src="./assets/images/pizza1.avif" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Passo 3</h5>
+                    <p>Infornare nel forno a legna. Attenzione: la pizza cuoce molto
+                      rapidamente,
+                      fatela ruotare perchè riceva uniformemente il calore.</p>
+                  </div>
+                </div>
+              </div>
+              <div role="listitem" class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+                <div class="card">
+                  <img src="./assets/images/pizza3.avif" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Passo 3</h5>
+                    <p>La pizza è pronta!</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+        </div>
+
+      </div>
+    </section>
+  </div>
+  <footer class="container-fluid p-2 p-lg-5">
+    <div class="row">
+      <section class="nutritional value col-12">
+        <h2 class="footer-section-title">Valori nutrizionali</h2>
+        <table class="flex">
+          <thead>
+            <tr>
+              <th>Composizione Chimica</th>
+              <th>Valore per 100g</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Carboidrati complessi</td>
+              <td>36,40</td>
+            </tr>
+            <tr>
+              <td>Zuccheri solubili</td>
+              <td>12,90</td>
+            </tr>
+            <tr>
+              <td>Proteine</td>
+              <td>5,60</td>
+            </tr>
+            <tr>
+              <td>Grassi</td>
+              <td>5,60</td>
+            </tr>
+          </tbody>
         </table>
+        <section class="where-we-are col-12">
+          <h2 class="footer-section-title">Credits</h2>
+          Questo sito è realizzato dagli studenti della TNV Academy
+        </section>
 
-        <a href="../../index.html">Back</a>
+      </section>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+    </script>
+  <a href="../../index.html">Back</a>
+</body>
 
-    </body>
 </html>
