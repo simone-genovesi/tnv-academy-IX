@@ -1,22 +1,198 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
     <title>Paola</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/styles/theme.css" />
 </head>
 <body>
-    <img
-      src="./assets/images/pizza.avif"
-      alt="Una pizza ai funghi buonissima!!"
-      width="300"
-    />
-    <h1>Pizza Speciale di Paola</h1>
-    
-    <h2>Una pizza ai funghi così non l'avete mai mangiata.</h2>
-    <p>La pizza ai funghi da fare in casa è una gioia per tutta la famiglia, 
-        un piatto croccante, goloso e dal profumo unico da assaporare in allegria.</p>
+    <header>
+    <h1>PAOLA'S SPECIAL PIZZA</h1>
+    <p>Una pizza ai funghi così non l'avete mai mangiata.</p>
+    </header>
 
-        <h3>Ingredienti:</h3>
-    <ul>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">THE NET PIZZA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">I nostri piatti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contatti</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <section class="menu">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title">INGREDIENTI</h2>
+            <div class="separator"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 py-2">
+            <div class="card shadow">
+              
+              <img
+                src="assets/images/impasto.jpg"
+                class="card-img-top"
+                alt="Impasto per la pizza"
+              />
+              
+              <div class="card-body">
+                <h5 class="card-title"><a class="" href="https://it.wikipedia.org/wiki/Pizza#:~:text=L%27impasto%20viene%20prodotto%20con,la%20stesura%20con%20il%20mattarello.">Impasto per la pizza</a></h5>
+                <p class="card-text">
+                  L'impasto viene prodotto con farina di grano tenero tipo 00 o 0, acqua, lievito di birra.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-2">
+            <div class="card shadow">
+              <img
+                src="assets/images/Mozzarella.jpg"
+                class="card-img-top"
+                alt="Mozzarella"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><a class="" href="https://it.wikipedia.org/wiki/Mozzarella">Mozzarella</a></h5>
+                <p class="card-text">
+                  La mozzarella è un formaggio molle, originario dell'Italia meridiona.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-2">
+            <div class="card shadow">
+              <div class="card-image">
+                <img
+                  src="assets/images/origano.jpg"
+                  class="card-img-top"
+                  alt="Origano"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a class="" href="https://it.wikipedia.org/wiki/Origanum">Origano</a></h5>
+                <p class="card-text">
+                  Origanum è un genere di piante spermatofite della famiglia delle Lamiaceae.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-2">
+            <div class="card shadow">
+              <div class="card-image">
+                <img
+                  src="assets/images/pomodoro.jpeg"
+                  class="card-img-top"
+                  alt="Passata di pomodoro"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a class="" href="https://it.wikipedia.org/wiki/Passata_di_pomodoro">Passata di pomodoro</a></h5>
+                <p class="card-text">
+                  La passata di pomodoro è una conserva prodotto con la polpa del pomodoro.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-2">
+            <div class="card shadow">
+              <div class="card-image">
+                <img
+                  src="assets/images/aglio.jpg"
+                  class="card-img-top"
+                  alt="aglio"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a class="" href="https://it.wikipedia.org/wiki/Allium_sativum#:~:text=L%27aglio%20(Allium%20sativum%20L,famiglia%20Amaryllidaceae%20(sottofamiglia%20Allioideae).&text=L.,-Bulbo%2C%20spicchi%20e&text=Il%20suo%20utilizzo%20primo%20è,scienza%20e%20dalle%20tradizioni%20popolari.">Aglio</a></h5>
+                <p class="card-text">
+                  L'aglio è una pianta bulbosa della famiglia Amaryllidaceae.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-2">
+            <div class="card shadow">
+              <div class="card-image">
+                <img
+                  src="assets/images/sale.jpg"
+                  class="card-img-top"
+                  alt="sale"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a class="" href="https://it.wikipedia.org/wiki/Sale">Sale</a></h5>
+                <p class="card-text">
+                  Il sale è un ingrediente, costituito quasi da cloruro di sodio. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-2">
+            <div class="card shadow">
+              <div class="card-image">
+                <img
+                  src="assets/images/funghi.jpg"
+                  class="card-img-top"
+                  alt="funghi"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a class="" href="https://it.wikipedia.org/wiki/Fungi">Funghi</a></h5>
+                <p class="card-text">
+                  Hanno lamelle fitte e bianco-giallastre. Il loro gambo è solitamente laterale. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 py-2">
+            <div class="card shadow">
+              <div class="card-image">
+                <img
+                  src="assets/images/olio.jpg"
+                  class="card-img-top"
+                  alt="olio d'oliva"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a class="" href="https://it.wikipedia.org/wiki/Olio_di_oliva">Olio extravergine d'oliva</a></h5>
+                <p class="card-text">
+                  L'olio d'oliva è un olio alimentare estratto dalle olive, ovvero i frutti dell'ulivo.  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        
+    <!-- <ul >
       <li><a href="https://it.wikipedia.org/wiki/Pizza#:~:text=L%27impasto%20viene%20prodotto%20con,la%20stesura%20con%20il%20mattarello.">Impasto per pizza</a></li>
       <li><a href="https://it.wikipedia.org/wiki/Mozzarella">Mozzarella</a></li>
       <li><a href="https://it.wikipedia.org/wiki/Origanum">Origano</a></li>
@@ -25,9 +201,14 @@
       <li><a href="https://it.wikipedia.org/wiki/Sale">Sale</a></li>
       <li><a href="https://it.wikipedia.org/wiki/Fungi">Funghi</a></li>
       <li><a href="https://it.wikipedia.org/wiki/Olio_di_oliva">Olio extravergine d'oliva</a></li>
-    </ul>
+    </ul> -->
 
-    <h3>Ricetta:</h3>
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">RICETTA</h2>
+        <div class="separator"></div>
+      </div>
+    </div>
     <ol>
       <li>Preriscaldate il forno ad alta temperatura e mettete dentro a riscaldare 
         una teglia o una pietra da pizza.</li>
@@ -36,26 +217,88 @@
       <li>Cuocete per una decina di minuti a 250 gradi, o fino a quando il fondo non diventa croccante e il condimento è cotto, quindi cospargete con altro olio prima di servire in tavola.</li>
     </ol>
 
-    <h3>Tabella nutrizionale</h3>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Calorie</th>
-          <th>Grassi</th>
-          <th>Carboidrati</th>
-          <th>Proteine</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>237 kcal</td>
-          <td>9.8 g</td>
-          <td>28 g</td>
-          <td>8.4 g</td>
-        </tr>
-       
-      </tbody>
-    </table>
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">ABBINAMENTI</h2>
+        <div class="separator"></div>
+      </div>
+    </div>
+    
+    <div class="card-image">
+      <img
+        src="assets/images/birra.jpg"
+        class="card-img-top"
+        alt="olio d'oliva"
+      />
+    </div>
+    <h3>Birra Lager</h3>
+    <p>La <strong>Lager</strong> è una delle tipologie di birre più diffuse e consumate al mondo.
+         È una birra chiara, solitamente dal contenuto alcolometrico medio-basso e dal sapore poco amaro, 
+         riunendo tutte le caratteristiche per una bevanda di successo.
+          Si tratta della più classica delle birre acquistate in lattina al supermercato e, 
+          in linea più generale, per Lager ci si riferisce per indicare le birre a <strong>bassa fermentazione</strong>.</p>
+
+          <footer class="container-fluid p-2 p-lg-5">
+            <section class="contacts">
+              <div class="row">
+              </div>
+              <div class="row">
+                <section class="opening-hours col-12 col-lg-4">
+                  <h2 class="footer-section-title">Tabella Nutrizionale</h2>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Calorie</th>
+                        <th>Grassi</th>
+                        <th>Carboidrati</th>
+                        <th>Proteine</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>237 kcal</td>
+                        <td>9.8 g</td>
+                        <td>28 g</td>
+                        <td>8.4 g</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+              </div>
+              <div class="row">
+                <div class="col-20">
+                  <h2 class="footer-section-title">Dicci la tua! Scrivi la tua recensione qui sotto.</h2>
+                </div>
+              </div>
+      
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="name" />
+                </div>
+                <div class="mb-3">
+                  <label for="surname" class="form-label">Cognome</label>
+                  <input type="text" class="form-control" id="surname" />
+                </div>
+                <label for="reviw" class="form-label">Recensione</label>
+                <div class="form-floating mb-3">
+                  <textarea
+                    class="form-control"
+                    placeholder="Inserisci qui il tuo ordine..."
+                    id="order"
+                    style="height: 100px"
+                  ></textarea>
+            
+          </footer>
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"
+          ></script>
+
+          
+          
+    
     <a href="../../index.html">Back</a>
 </body>
 </html>
