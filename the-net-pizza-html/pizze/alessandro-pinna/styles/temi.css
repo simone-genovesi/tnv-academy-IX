@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Roboto&display=swap');
+body {
+    margin: 50;
+    padding: 0;
+    border: 0;
+    
+    
+
+
+}
+
+
+header {
+    
+    background-image: url("../images/immagine.jpg");
+    background-size: cover;
+    
+    height: 350px;
+    width: 900px;
+    display: flex;
+    background-position: y, center;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    
+}
+.headerstyle{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  white-space: nowrap;
+  
+}
+.pensiero{
+    text-align: center;
+}
+
+
+.ingredienti{
+    
+    display: flex;
+    justify-content: center;
+    
+    text-align: unset;
+}
+
+.ricetta{
+    text-align: center;
+}
+
+
+
+header h1, h2{
+    color: rgba(198, 29, 54, 0.895);
+}
+
+header h1{
+    font-size: 50px;
+    
+    text-shadow: 5px 5px 3px rgb(0, 0, 0);
+}
+
+h1, h2, h3{
+
+    font-family: 'Bebas Neue', cursive;
+}
+
+header h2{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 5px 5px 3px rgb(0, 0, 0);
+}
+
+.footer{
+    
+    text-align: center;
+    
+}
+ul {
+    list-style-type: none;
+  }
+  
+ol {
+    list-style-type: none;
+}  
