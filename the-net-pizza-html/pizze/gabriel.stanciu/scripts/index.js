@@ -29,7 +29,7 @@
     }
 
     const renderMenu = (piatti) => {
-        renderSection('Piati Consigliati','primi', piatti);
+        renderSection('Piatti Consigliati','primi', piatti);
         
         
     }
