@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,500,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.descrizione{
+    font-family: 'Courier Prime', cursive;
+    font-style:normal ;    
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.youtube{
+    margin-top: 120px;
+}
+.logo{
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;  
+    margin-top: 60px; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    box-shadow: 0 3px 5px rgb(255, 255, 255);
+}
+
+#valori{
+    margin-top: 10px;
+    width: 50%;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+
+
+table th {
+    width: 50% !important;
+}
+
+.ricetta{
+    font-family: 'Courier Prime', cursive;
+    font-size: larger;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+header {
+    width: 100%;
+    height: 450px;
+    background-image: url('../assets/images/pizzaJuve.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 3px 5px lightgray;
+}
+
+header h1 {
+    color: white;
+    font-size: 128px;
+    margin: 0;
+    text-shadow: -10px -10px 5px black;
+    text-decoration:overline;
+    
+}
+header h4{
+    color: white;
+    font-size: 35px;
+    margin: 0;
+    text-shadow: -5px -5px 5px black;
+    text-decoration:underline;
+}
+
+.card{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.container section {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.youtube{
+    margin-bottom: 120px;
+}
+
+.section-title {
+    color: #5f5e5e;
+    text-align: center;
+    width: 100%;     
+    background-size: cover  ;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+    font-size: 5rem;
+    margin: 0;
+}
+
+.menu h3 {
+    font-size: 1.5em;
+}
+
+.text-responsive {
+    font-size: calc(100% + 5vw + 5vh);
+  }
+
+
+
+table th {
+    background-color: white;
+    color: #15ff5b;
+}
+
