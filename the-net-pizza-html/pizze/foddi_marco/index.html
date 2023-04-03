@@ -2,58 +2,168 @@
 <html lang="it">
 <head>
     <title>foddi_marco</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./styles/theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>Pizza di Marco Foddi</h1>
-    
-    <img src="./images/pizza_progetto_tnv.avif" width="300">
 
-    <h2>Gamberetti e vongole</h2>
+    <header>
+        <h1>Pizza Porto Paglia</h1>
+        <h2>Gamberetti e vongole</h2>
+    </header>
 
-    <h3>Descrizione</h3>
-    <p>Impasto a base di farina, acqua e lievito, che viene spianato
+    <nav>
+        <h3>The Net Pizza</h3>
+        <div class="navbar_list">
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li>Pizze</li>
+          <li>Chi Siamo</li>
+        </ul>
+    </div>
+      </nav>
+
+      <div class="d-flex flex-column justify-content-center py-4">
+    <h3 class="text-center">Descrizione</h3>
+    <p class="text-center">Impasto a base di farina, acqua e lievito, che viene spianato
          per essere farcito con pomodoro, mozzarella, gamberetti,
          vongole locali, e poi cotto in un forno a legna.</p>
+    </div>
+        
+<div class="container">
+    <div class="d-flex flex-column justify-content-center py-4">
+        <h3 class="text-center">Ingredienti</h3>
+    </div>
+    <div role="list" class="row">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+    <div role="list-item" class="card">
+        <img src="./images/pomodoro_foddi.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://it.wikipedia.org/wiki/Solanum_lycopersicum">
+            Pomodoro</a></h5>
+          <p class="card-text">Quello vero, viene coltivato solo in Italia e viene raccolto esclusivamente a mano</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+      <div role="list-item" class="card">
+        <img src="./images/mozzarella_foddi.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://it.wikipedia.org/wiki/Mozzarella">
+            Mozzarella</a></h5>
+          <p class="card-text">Formaggio fresco a pasta filata e molle. Bianca, lucente, fibrosa ma soffice.</p>
+        </div>
+      </div>
+    </div>
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+      <div role="list-item" class="card">
+        <img src="./images/gambero_foddi.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://it.wikipedia.org/wiki/Gambero">
+            Gamberetti</a></h5>
+          <p class="card-text">Gamberi freschi provenienti dal Mediterraneo</p>
+        </div>
+      </div>
+    </div>
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+      <div role="list-item" class="card">
+        <img src="./images/vongole_foddi.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://it.wikipedia.org/wiki/Vongola">
+            Vongole locali</a></h5>
+          <p class="card-text">Vongole veraci provenienti dall'allevamento di Oristano</p>
+        </div>
+      </div>
+    </div>
+</div>
 
-    <h3>Ingredienti</h3>
+<div class="container">
+    <div class="d-flex flex-column justify-content-center py-4">
+        <h3 class="text-center">Consigli</h3>
+    </div>
+    <div class="row" class="col-12 col-xl-3 my-2">
+    <div class="card">
+      <img src="./images/birra_foddi.jpg" class="card-img-top">
+      <div class="card-body">
+        <p class="card-text">Accompagna la tua pizza con una delle nostre birre artigianali. 
+            Cruda, integra e senza aggiunta di conservanti con un alto contenuto di entusiasmo e creatività.
+             La birra artigianale è prodotta da artigiani in quantità sempre molto limitate.</p>
+             <p>Scegli il colore e il gusto che preferisci</p>
+        <a href="https://rubiubirra.it/shop-on-line/" class="btn btn-primary">Carta delle Birre</a>
+      </div>
+    </div>
+  </div>
+    
+  <div class="container">
+    <div class="d-flex flex-column justify-content-center py-5">
+        <h3 class="text-center">Provala a casa tua questa è la nostra ricetta speciale</h3>
+        <a class="btn btn-primary btn-lg mx-auto d-block" href="https://www.youtube.com/watch?v=Cq90lUQUCUo" role="button">Guarda il tutorial</a>
+    </div>
+
+    <h2>Tabella Nutrizionale</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Valori Medi</th>
+          <th>Per 100g di prodotto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Energia</td>
+          <td> 984 kj - 234 kcla</td>
+        </tr>
+        <tr>
+          <td>Grassi</td>
+          <td>6,6g</td>
+        </tr>
+        <tr>
+          <td>Acidi grassi saturi</td>
+          <td>3,9g</td>
+        </tr>
+        <tr>
+          <td>Carboidrati</td>
+          <td>32,2g</td>
+        </tr>
+        <tr>
+          <td>Zuccheri</td>
+          <td>4,6g</td>
+        </tr>
+        <tr>
+          <td>Fibre</td>
+          <td>2,8g</td>
+        </tr>
+        <tr>
+          <td>Proteine</td>
+          <td>10g</td>
+        </tr>
+        <tr>
+            <td>Sale</td>
+            <td>1,5g</td>
+          </tr>
+      </tbody>
+    </table>
+
+    <h2>Contatti</h2>
+<footer>
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.9555464173088!2d-122.43129718444395!3d37.7739723793543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085806c5a0d85e5%3A0x5c6f1e6d4c8e4a3a!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1617072844382!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <ul>
-        <li><a href="https://it.wikipedia.org/wiki/Solanum_lycopersicum">
-            Pomodoro</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Mozzarella">
-                Mozzarella</a></li>
-                <li><a href="https://it.wikipedia.org/wiki/Gambero">
-                    Gamberetti</a></li>
-                    <li><a href="https://it.wikipedia.org/wiki/Vongola">
-                        Vongole locali</a></li>
-      </ul>
+      <li>Chiamaci</li>
+      <li><i class="fa fa-phone"></i>123456789</li>
+      <li>Seguici sulle nostre pagine social</li>
+      <li><i class="fa fa-facebook-square"></i> <a href="">Pagina Facebook</a></li>
+      <li><i class="fa fa-twitter-square"></i> <a href="">Pagina Twitter</a></li>
+      <li><i class="fa fa-instagram"></i> <a href="">Pagina Instagram</a></li>
+    </ul>
+  </div>
+</footer>
 
-    <h3>Consigli</h3>
-    <p>Accompagnare questa specialità di mare con una 
-        birra bionda o un vino bianco.</p>
-    <img src="./images/bevande_progetto_tnv.avif" width="180">
-
-    <h3>Ricetta</h3>
-    <h4>Ingredienti</h4>
-    <ol>
-        <li>500 gr farina 00</li>
-        <li>250 ml di acqua</li>
-        <li>7 g di lievito di birra fresco</li>
-        <li>1 cucchiaio di olio extra vergine di oliva</li>
-        <li>1 cucchiaino di sale</li>
-        <li>mezzo cucchiaino di zucchero</li>
-    </ol>
-    <h4>Procedimento</h4>
-    <p>Mettete l’acqua tiepida in una grande ciotola e sbriciolatevi dentro il lievito di birra fresco insieme allo zucchero
-        e aggiungete l’olio extravergine di oliva. Fate sciogliere totalmente il lievito poi iniziate ad unire la farina e il sale
-        mescolando prima con un cucchiaio e poi con le mani in modo da ottenere un impasto omogeneo e senza grumi.
-        Impastate per circa 10 minuti poi trasferite l’impasto in una ciotola ben oleata, coprite con pellicola trasparente e
-        mettete  lievitare in forno SPENTO ma con la luce accesa per circa 1 ora e mezza fino a che l’impasto sarà raddoppiato di volume.
-        Togliete l’impasto dalla ciotola e stendetelo su una teglia oleata o con carta forno SENZA REIMPASTARLO ma appiattendolo
-        solo con le mani. Lasciatelo lievitare ancora per 30 minuti circa poi conditelo con pomodoro.
-        Accendete il forno a 250° statico e, quando sarà ben caldo, mettete a cuocere la pizza nel ripiano più basso del forno.
-        Fate cuocere per 10 minuti poi aggiungete la mozzarella a dadini, spostate la pizza sul ripiano medio del forno e
-        continuate la cottura ancora per 5 minuti circa fino a che la mozzarella sarà totalmente cotta.</p>
-
-     <a href="../../index.html">Back</a>
+     <a href="../../index.html">Home</a>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
