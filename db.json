@@ -271,6 +271,30 @@
         "sodium": "1203 mg",
         "protein": "21g"
       }
+    },
+     {
+      "id": 12,
+      "category": "dolci",
+      "title": "Torta della Nonna",
+      "description": "Una torta molto buona.",
+      "imageUrl": "https://michelefenu.github.io/tnv-academy-IX/the-net-pizza-bootstrap/assets/images/tiramisu.jpg",
+      "price": 7,
+      "available": true,
+      "ingredients": [
+        "Savoiardi",
+        "Zabaione",
+        "Caffe"
+      ],
+      "allergens": ["Glutine"],
+      "nutritionalValues": {
+        "kcal": "145",
+        "totalFat": "6g",
+        "saturatedFat": "6g",
+        "cholesterol": "53mg",
+        "carbohydrate": "1,5g",
+        "sodium": "1203 mg",
+        "protein": "21g"
+      }
     }
   ]
 }

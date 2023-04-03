@@ -1,0 +1,111 @@
+
+
+.card{
+    box-shadow: 0 0.5rem 1rem rgba(80, 67, 71, 0.902);
+}
+
+.immagine{
+    border-radius: 50%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Roboto&display=swap');
+
+
+.pizza h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.nomepizza h1 {
+    font-family: 'Pacifico', cursive;
+    color:rgb(216, 221, 225);
+    text-shadow: 5px 5px 3px rgb(18, 18, 17);
+    
+}
+
+.nomepizza h4{
+    font-family: 'Pacifico', cursive;
+    color:rgb(216, 221, 225);
+}
+
+h2{
+    color: #A6261B;
+    text-shadow: 5px 5px 7px #1e1817;
+    
+}
+
+ h3, h4 {
+    color: #007372;
+    text-shadow: 5px 5px 7px #1e1817;
+}
+
+.ingredienti {
+    text-align: center;
+}
+
+.ricetta{
+    text-align: center;
+}
+
+ol {
+    list-style-type: none;
+}
+footer{
+    
+    background-color: rgba(250, 235, 215, 0);
+    width: 90%; 
+  margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.recensione{
+  background-color: #aa1308;
+  text-align: center;
+  
+  width: 90%; 
+  margin: 0 auto;
+}  
+
+
+.recensione h1{
+    color:aliceblue;
+}
+.recensione p{
+    color: aliceblue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 8px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin: 6px;
+    
+}
+
+nav h4{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 8px;
+}
+
+
+
+
+
+

@@ -1,217 +1,435 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style/theme.css">
   <title>Arianna's Pizza</title>
 </head>
+
 <body>
-  <img src="./assets/images/arianna-pizza-banner.jpeg" alt="Una pizza insomma" width=100% />
-  <h1>Arianna's Pizza</h1>
-  <h2><strong>Sviluppatori intolleranti al glutine, buon appetito!</strong></h2>
+  <!--HEADER-->
+  <header>
+    <h1>Arianna's Pizza</h1>
+    <h2>Sviluppatori intolleranti al glutine, buon appetito!</h2>
+  </header>
 
-  <table>
-    <tr>
-      <td>
-        <p><strong>Amici celiaci e
-            intolleranti</strong> abbiamo la ricetta perfetta per una pizza senza glutine gustosa e soffice da fare in casa.
+  <!--NAVIGATOR-->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">THE NET PIZZA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ingredienti">Ingredienti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ricetta">Ricetta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tabella-nutrizionale">Tabella nutrizionale</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--CONTAINER-->
+  <div class="container">
+    <div class="row"> <!--DIV LIST ROW-->
+      <div class="col-md-8">
+        <p><strong>Amici celiaci e intolleranti</strong> abbiamo la ricetta perfetta per una pizza 
+          senzaglutine gustosa e soffice da fare incasa.
           La nostra ricetta è per una pizza senza impasto ad <strong>alta
-            idratazione</strong>, dove tutti gli ingredienti vengono mischiati tutti in una ciotola e lavorati esclusivamente con
-          un cucchiaio di legno. Useremo le mani e un po' di farina solo per creare e stendere i panetti.
+          idratazione</strong>, dove tutti gli ingredienti vengono mischiati tutti in una ciotola e lavorati
+          esclusivamente con un cucchiaio di legno. Useremo le mani e un po' di farina solo per creare e stendere i panetti.
           Decidete voi se creare un cornicione, come la tipica pizza napoletana, o se fare la classica pizza
-          in teglia. Con le dosi suggerite otterremo due pizze di circa 22-24 cm (250g/pizza circa).
-          Guarniamo con passata di pomodoro, mozzarella o con i nostri ingredienti preferiti ed è pronta per la cottura!
-          Segui la ricetta e <strong>prepara subito la tua pizza senza glutine!</strong>
+          in teglia.
+          </p>
+        <p>Con le dosi suggerite otterremo due pizze di circa 22-24 cm (250g/pizza circa).
         </p>
-      </td>
-      <td>
-        <figure>
-          <img src="./assets/images/dev-pizza-sample.jpeg" alt="Ragazzi seduti su un prato mangiano pizza da un cartone."
-            width="400" />
-          <figcaption>
-            Sviluppatori mangiano pizza mentre dovrebbero fare coding.
-          </figcaption>
-        </figure>
-      </td>
-    </tr>
-  </table>
-  <div class="news" align="center">
-    <menu>
-      <li><button><a href="#ingredienti">Ingredienti</a></button></li>
-      <li><button><a href="#preparazione">Preparazione</a></button></li>
-      <li><button><a href="#video">Videoricetta</a></button></li>
-      <li><button><a href="#abbinamenti">Abbinamenti</a></button></a></li>
-    </menu>
+        <p>Segui la ricetta e <strong>prepara subito la tua pizza senza glutine!</strong>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <img src="./assets/images/dev-pizza-sample.jpeg" class="img-fluid" alt="..." class="mw-50">
+        </div>
+    </div><!--ROW END-->
+
+    <section class="menu-section" id="ingredienti">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="section-title">Ingredienti</h2>
+          <div class="separator"></div>
+        </div>
+      </div>
+      <div role="list" class="row"> <!--DIV LIST ROW-->
+
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/farina-gf.jpeg" class="card-img-top" alt="Farina per pane">
+            <div class="card-body">
+              <h5 class="card-title">Farina per pane senza glutine</h5>
+              <p class="card-text"><span class="value">200 g</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/farina.png" class="card-img-top" alt="Farina multiuso">
+            <div class="card-body">
+              <h5 class="card-title">Farina multiuso senza glutine</h5>
+              <p class="card-text"><span class="value">100 g</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/water.jpeg" class="card-img-top" alt="Acqua minerale">
+            <div class="card-body">
+              <h5 class="card-title">Acqua minerale temperatura ambiente</h5>
+              <p class="card-text"><span class="value">310 g</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/lievito-di-birra.jpeg" class="card-img-top" alt="Lievito di birra fresco">
+            <div class="card-body">
+              <h5 class="card-title">Lievito di birra fresco</h5>
+              <p class="card-text"><span class="value">30 g</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/olio-oliva.png" class="card-img-top" alt="Olio extra-vergine di oliva">
+            <div class="card-body">
+              <h5 class="card-title">Olio extravergine d'oliva</h5>
+              <p class="card-text"><span class="value">1 cucchiaino</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/sale.jpeg" class="card-img-top" alt="Sale">
+            <div class="card-body">
+              <h5 class="card-title">Sale</h5>
+              <p class="card-text"><span class="value">4g</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/sugo-pomodoro.jpeg" class="card-img-top" alt="Sugo di pomodoro">
+            <div class="card-body">
+              <h5 class="card-title">Sugo di pomodoro</h5>
+              <p class="card-text"><span class="value">q.b</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/mozzarella.png" class="card-img-top" alt="Mozzarella">
+            <div class="card-body">
+              <h5 class="card-title">Mozzarella</h5>
+              <p class="card-text"><span class="value">q.b</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/gamberetti.png" class="card-img-top" alt="Gamberetti">
+            <div class="card-body">
+              <h5 class="card-title">Gamberetti</h5>
+              <p class="card-text"><span class="value">6-10 pezzi</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/champignon.png" class="card-img-top" alt="Funghi champignon">
+            <div class="card-body">
+              <h5 class="card-title">Funghi Champignon</h5>
+              <p class="card-text"><span class="value">q.b</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/fiori-di-zucca.jpeg" class="card-img-top" alt="Fiori di zucca">
+            <div class="card-body">
+              <h5 class="card-title">Fiori di zucca</h5>
+              <p class="card-text"><span class="value">6 pezzi</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 py-2">
+          <div class="card">
+            <img src="./assets/images/peperoni-rossi.jpeg" class="card-img-top" alt="Peperoni rossi">
+            <div class="card-body">
+              <h5 class="card-title">Peperoni rossi</h5>
+              <p class="card-text"><span class="value">q.b.</span></p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+  </div> <!-- ROW END-->
+  </section>
+
+  <!--RICETTA-->
+  <section class="ricetta-section" id="ricetta">
+    <div class="row" id="ricetta">
+      <div class="col-12">
+        <h2 class="section-title">Ricetta</h2>
+        <div class="separator"></div>
+      </div>
+    </div>
+    <div class="row" role="list">
+        <div class="card col-6">
+          <img src="./assets/images/pizza-senza-glutine-step-1.jpeg" class="card-img-top" alt="step 1">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <!--<a href="#ingredienti" class="btn btn-primary">Leggi</a>-->
+          </div>
+        </div>
+        <div class="card col-6">
+          <img src="./assets/images/pizza-senza-glutine-step-2.jpeg" class="card-img-top" alt="step 2">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <!--<a href="#ingredienti" class="btn btn-primary">Leggi</a>-->
+          </div>
+        </div>
+      </div>
+    <!--ROW END-->
+    <div class="row">
+      <p>Iniziamo setacciando le due farine in una boule e mischiandole per bene. È molto importante setacciarle
+        accuratamente per evitare la formazione di grumi nella fase dell'impasto. Ora sbricioliamovi il lievito fresco
+        con le mani e mescoliamo con un cucchiaio di legno [1]. Se usiamo il lievito secco aggiungiamolo ora alle
+        farine. Uniamo pian piano l'acqua a più riprese, continuando a mescolare con un cucchiaio di legno e con
+        energia, fino a quando verrà assorbita completamente [2]. Se durante questa fase dovessero formarsi dei grumi,
+        mescolate l'impasto con una forchetta, sempre molto energicamente.</p>
+    </div>
+    <div class="row" role="list">
+        <div class="card col-6">
+          <img src="./assets/images/pizza-senza-glutine-step-3.jpeg" class="card-img-top" alt="step 3">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <!--<a href="#ingredienti" class="btn btn-primary">Leggi</a>-->
+          </div>
+        </div>
+        <div class="card col-6">
+          <img src="./assets/images/pizza-senza-glutine-step-4.jpeg" class="card-img-top" alt="step 4">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <!--<a href="#ingredienti" class="btn btn-primary">Leggi</a>-->
+          </div>
+        </div>
+    </div> <!--ROW END-->
+    <div class="row">
+      <p>Uniamo l'olio e il sale e mescoliamo ancora [3] fino a raggiungere un composto omogeneo [4]. L'impasto sarà
+        morbido, come un gelato. Copriamo la boule con pellicola trasparente e lasciamo riposare per 30 minuti.</p>
+    </div>
+    <div class="row" role="list">
+        <div class="card col-6">
+          <img src="./assets/images/pizza-senza-glutine-step-5.jpeg" class="card-img-top" alt="step 5">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <!--<a href="#ingredienti" class="btn btn-primary">Leggi</a>-->
+          </div>
+        </div>
+        <div class="card col-6">
+          <img src="./assets/images/pizza-senza-glutine-step-6.jpeg" class="card-img-top" alt="step 6">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <!--<a href="#ingredienti" class="btn btn-primary">Leggi</a>-->
+          </div>
+        </div>
+    </div> <!--ROW END-->
+    <div class="row">
+      <p>Il composto inizierà a lievitare [5]. Trascorso il tempo necessario, infariniamo una spianatoia e ribaltiamoci
+        l'impasto. Con un coltello infarinato diviamolo in due parti e con le mani, sempre infarinate, formiamo i
+        panetti, seguendo questa tecnica [6] (foto passaggio 9). Inizia ora la fase della lievitazione vera e proprio:
+        posizioniamo i panetti su due piatti infarinati e copriamoli con una campana di vetro o una ciotola e lasciamo
+        lievitare per almeno 5 ore fuori frigo.</p>
+    </div>
+    <div class="row" role="list">
+        <div class="card col-6">
+          <img src="./assets/images/pizza-senza-glutine-step-7.jpeg" class="card-img-top" alt="step 7">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <!--<a href="#ingredienti" class="btn btn-primary">Leggi</a>-->
+          </div>
+        </div>
+        <div class="card col-6">
+          <img src="./assets/images/pizza-senza-glutine-step-8.jpeg" class="card-img-top alt="step 8">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <!--<a href="#ingredienti" class="btn btn-primary">Leggi</a>-->
+          </div>
+        </div>
+    </div> <!--ROW END-->
+    <div class="row">
+      <p>A questo punto possiamo procedere in due modi: o fare in modo che si formi un cornicione e sia possibile
+        cuocere la pizza come se fosse su una pietra refrattaria (nel caso ne fossimo sprovvisti), oppure cuocerla in
+        teglia.</p>
+      <p>
+        Se scegliamo il primo modo, ovvero quello della pizza napoletana, stendiamo un po' di farina su un foglio di
+        carta da forno e posizioniamovi il panetto. Infariniamoci anche le mani per riuscire a lavorarlo meglio.</p>
+      <p>Iniziamo dal basso (a circa 1 cm dal bordo) a schiacciare l'impasto con i polpastrelli [7], fino ad arrivare a
+        circa 1 cm dell'altra estremità. Ripetiamo l'operazione fino a quando si sarà formato un bordo più gonfio, il
+        cornicione appunto [8].
+      </p>
+      <p>Lasciamo riposare ancora per 30 minuti. Non preoccupiamoci se non è troppo "grosso", in cottura infatti
+        raddoppierà di volume.
+      </p>
+      <p>Nel frattempo prendiamo una leccarda da forno e posizioniamola rovesciata nel ripiano più basso del forno,
+        accendiamolo alla massima temperatura e facciamola scaldare per bene. Consigliamo di riscaldare la placca per
+        almeno 30 minuti prima di infornare la pizza.
+      </p>
+      <p>Mentre la teglia si scalda in forno, condiamo la nostra pizza con il pomodoro, sporcando anche i bordi, in modo
+        da donarle un aspetto più rustico. A questo punto, trasferiamo la carta da forno con sopra la pizza sulla
+        leccarda rovesciata e rimettiamola sempre nell'ultimo ripiano (possiamo togliere la placca bollente aiutandoci
+        con delle presine e avvicinarci quindi alla pizza e trasferirla, oppure utilizzare la pala della pietra
+        refrattaria).
+      </p>
+      <p>Quindi la pizza cuocerà sulla carta da forno posizionata sulla leccarda rovesciata e inserita nell'ultimo
+        ripiano verso il basso.
+      </p>
+      <p>Cuochiamo per circa 10 minuti (controlliamo che la base non bruci, sollevandola delicatamente), dopodichè,
+        velocemente, condiamola con mozzarella e il condimento che abbiamo scelto e rimettiamola in forno per altri 5-10
+        minuti, in modo che si sciolga. In cottura il cornicione aumenterà di volume, gonfiandosi. Una volta cotta è
+        possibile versare un filo di olio.
+      </p>
+      <p>Volendo è possibile poi far fare alla pizza una cottura veloce con il grill per donargli un aspetto più
+        rustico: a cottura ultimata, basterà selezionare l'impostazione grill e trasferire la pizza su una griglia,
+        proprio sotto la serpentina. Basteranno 2-3 minuti per dare l'effetto di una vera pizza napoletana.
+      </p>
+      <p>Per la cottura in teglia invece, basterà oliare per bene la leccarda da forno e trasferirvi l'impasto della
+        pizza, stendendola con le mani un poco infarinate. Cuociamo al massimo della temperatura per 20-25 minuti.
+      </p>
+      <p>Guarniamo con passata di pomodoro, mozzarella o con i nostri ingredienti preferiti ed è pronta per la cottura!
+
+      </div>
+  </section>
+  <section class="menu-section">
+    <div class="row" id="dolci">
+      <div class="col-12">
+       <h2 class="section-title"></h2>
+    <div class="separator"></div>
+      </div>
+      <!--JS-->
+    </div>
+  </section>
+    <div class="row">
+      <section class="tabella-nutrizionale" id="tabella-nutrizionale">
+      <div class="col-12">
+        <h2 class="section-title">Tabella nutrizionale</h2>
+        <div class="separator"></div>
+      </div>
+    </div>
+
+    <div class="row" role="list"> <!--DIV LIST ROW-->
+      <div class="col-md-8">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>
+                <p class="font-weight-bold">Valori nutrizionali</p>
+              </th>
+              <th>
+                <p class="font-weight-bold">* per 100 g</p>
+              </th>
+            </tr>
+            <tr>
+              <td class="text-right">Energia</td>
+              <td>992 kj / 236k cal</td>
+            </tr>
+            <tr>
+              <td class="text-right">Grassi</td>
+              <td>8,8g</td>
+            </tr>
+            <tr>
+              <td>Grassi di cui saturi</td>
+              <td>4,4 g</td>
+            </tr>
+            <tr>
+              <td>Carboidrati</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Carboidrati di cui zuccheri</td>
+              <td>1,9 g</td>
+            </tr>
+            <tr>
+              <td>Fibra</td>
+              <td>4,0 g</td>
+            </tr>
+            <tr>
+              <td>Proteine</td>
+              <td>6,7 g</td>
+            </tr>
+            <tr>
+              <td>Sale</td>
+              <td>1,1 g</td>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="col-lg-4">
+        <div class="d-none d-lg-block">
+          <div class="card vignetta">
+            <img src="./assets/images/dev-pizza-sample.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text">Sviluppatori che dovrebbero fare coding ma mangiano pizza</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div> <!--ROW END-->
+
+  <!--FOOTER-->
+  <footer class="container-fluid p-2 p-lg-5">
+    <div class="row">
+      <section class="opening-hours col-12 col-lg-4">
+        <h2 class="footer-section-title">Orari di Apertura</h2>
+      </section>
+      <section class="where-we-are col-12 col-lg-4">
+        <h2 class="footer-section-title">Titolo 2</h2>
+        
+      </section>
+      <section class="where-we-are col-12 col-lg-4">
+        <h2 class="footer-section-title">Credits</h2>
+        Questo sito è realizzato dagli studenti della TNV Academy
+      </section>
+    </div>
+  </footer>
+  </div> <!--FINE CONTEINER-->
   </div>
-
-
-  <section id="ingredienti">
-    <h2>La tua pizza fai da te</h2>
-
-    <table style="background-color: #f2f2f2;" align="center">
-      <colgroup>
-        <col style="background-color: rgb(207, 222, 207)" />
-        <col span="2" />
-      </colgroup>
-      <tr>
-        <td valign="top" width="33%">
-          <h3>Ingredienti per l'impasto</h3>
-          <ul>
-            <li><a href="https://nutrifree.it/prodotti-senza-glutine/mix-per-pane/" target=”_blank”>200 g di
-                Nutrifree-farina-per-pane</a></li>
-            <li><a href="https://nutrifree.it/prodotti-senza-glutine/farina-multiuso/" target=”_blank”>100 g di
-                Nutrifree-farina-multiuso</a></li>
-            <li>310 g di acqua minerale a temperatura ambiente</li>
-            <li>3 g di lievito di birra fresco ( o 1 g di lievito secco)</li>
-            <li>1 cucchiaino di olio extravergine di oliva</li>
-            <li>4 g di sale</li>
-          </ul>
-        </td>
-        <td valign="top" width="33%">
-          <h3>Ingredienti per guarnire</h3>
-          <ul>
-            <li>q.b. passata di pomodoro</li>
-            <li>q.b. mozzarella</li>
-            <li>q.b. olio extra vergine</li>
-          </ul>
-        </td>
-        <td valign="top" width="33%">
-          <h3>Condimenti suggertiti</h3>
-          <ul>
-            <li>Friarielli e provola</li>
-            <li>Peperoni e pecorino</li>
-            <li>Fiori di zucca, olive e carciofini</li>
-            <li>Funghi e asparagi</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </section>
-  <section id="preparazione">
-    <h3>Preparazione</h3>
-    <table width="50%" align="center">
-      <tbody>
-        <tr>
-          <td><img src="./assets/images/pizza-senza-glutine-step-1.jpeg" alt="Step 1 preparazione pizza" height="50%" /></td>
-          <td><img src="./assets/images/pizza-senza-glutine-step-2.jpeg" alt="Step 2 preparazione pizza" height="50%" /></td>
-          
-        </tr>
-        <tr>
-          <td colspan="2">
-            <p>Iniziamo setacciando le due farine in una ciotola e mischiamo, setacciando con cura per evitare grumi nella fase d'impasto.
-              Aggiungiamo il lievito fresco briciolato e giriamo con un mestolo di legno [1]. Se utiliziammo il
-              lievito secco aggiungiamolo ora alle farine. Uniamo lentamente l'acqua mentre mescoliamo un po' energicamente, 
-              fin quando sarà completamente assorbita [2]. Se dovessero formarsi dei grumi, utilizziamo una forchetta per mescolare sempre con energia.
-            </p>
-          </td>
-        </tr>
-        <tr>
-          <td><img src="./assets/images/pizza-senza-glutine-step-3.jpeg" alt="Step 3 preparazione pizza" /></td>
-          <td><img src="./assets/images/pizza-senza-glutine-step-4.jpeg" alt="Step 4 preparazione pizza" /></td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            Aggiungiamo  sale e olio e continuamo a mescolare [3] fino a raggiungere un composto omogeneo [4]. L'impasto deve risultare
-            morbido come un gelato.
-            Copriamo la ciotola con della pellicola trasparente e lasciamo a riposo per 30 minuti.
-          </td>
-        </tr>
-        <tr>
-          <td><img src="./assets/images/pizza-senza-glutine-step-5.jpeg" alt="Step 5 preparazione pizza" /></td>
-          <td><img src="./assets/images/pizza-senza-glutine-step-6.jpeg" alt="Step 6 preparazione pizza" /></td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            Il composto inizierà a lievitare [5]. Trascorso il tempo necessario, infariniamo una spianatoia e
-            ribaltiamoci l'impasto. Con un coltello
-            infarinato diviamolo in due parti e con le mani, sempre infarinate, formiamo i panetti, seguendo questa
-            tecnica [6] (foto passaggio 9).
-            Inizia ora la fase della lievitazione vera e proprio: posizioniamo i panetti su due piatti infarinati e
-            copriamoli con una campana di vetro
-            o una ciotola e lasciamo lievitare per almeno 5 ore fuori frigo
-          </td>
-        </tr>
-        <tr>
-          <td><img src="./assets/images/pizza-senza-glutine-step-7.jpeg" alt="Step 7 preparazione pizza" /></td>
-          <td><img src="./assets/images/pizza-senza-glutine-step-8.jpeg" alt="Step 8 preparazione pizza" /></td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <p>A questo punto possiamo procedere in due modi: o fare in modo che si formi un cornicione e sia possibile
-              cuocere la pizza come se fosse su una pietra refrattaria
-              (nel caso ne fossimo sprovvisti), oppure cuocerla in teglia.
-            </p>
-            <p>
-              Se scegliamo il primo modo, ovvero quello della pizza napoletana, stendiamo un po' di farina su un foglio
-              di carta da forno e posizioniamovi il panetto.
-              Infariniamoci anche le mani per riuscire a lavorarlo meglio.
-            </p>
-            <p>
-              Iniziamo dal basso (a circa 1 cm dal bordo) a schiacciare l'impasto con i polpastrelli [7], fino ad
-              arrivare a circa 1 cm dell'altra estremità. Ripetiamo
-              l'operazione fino a quando si sarà formato un bordo più gonfio, il cornicione appunto [8].
-            </p>
-            <p>
-              Lasciamo riposare ancora per 30 minuti. Non preoccupiamoci se non è troppo "grosso", in cottura infatti
-              raddoppierà di volume.
-              Nel frattempo prendiamo una leccarda da forno e posizioniamola rovesciata nel ripiano più basso del forno,
-              accendiamolo alla massima temperatura e facciamola
-              scaldare per bene. Consigliamo di riscaldare la placca per almeno 30 minuti prima di infornare la pizza.
-            </p>
-            <p>Mentre la teglia si scalda in forno, condiamo la nostra pizza con il pomodoro, sporcando anche i bordi,
-              in modo da donarle un aspetto più rustico. A questo punto,
-              trasferiamo la carta da forno con sopra la pizza sulla leccarda rovesciata e rimettiamola sempre
-              nell'ultimo ripiano (possiamo togliere la placca
-              bollente aiutandoci con delle presine e avvicinarci quindi alla pizza e trasferirla, oppure utilizzare la
-              pala della pietra refrattaria).
-            </p>
-            <p>Quindi la pizza cuocerà sulla carta da forno posizionata sulla leccarda rovesciata e inserita nell'ultimo
-              ripiano verso il basso.
-              Cuociamo per circa 10 minuti (controlliamo che la base non bruci, sollevandola delicatamente), dopodichè,
-              velocemente, condiamola con mozzarella e il
-              condimento che abbiamo scelto e rimettiamola in forno per altri 5-10 minuti, in modo che si sciolga. In
-              cottura il cornicione aumenterà di volume, gonfiandosi.
-              Una volta cotta è possibile versare un filo di olio.
-            </p>
-            <p>Volendo è possibile poi far fare alla pizza una cottura veloce con il grill per donargli un aspetto più
-              rustico: a cottura ultimata, basterà selezionare
-              l'impostazione grill e trasferire la pizza su una griglia, proprio sotto la serpentina. Basteranno 2-3
-              minuti per dare l'effetto di una vera pizza napoletana.
-            </p>
-            <p>
-              Per la cottura in teglia invece, basterà oliare per bene la leccarda da forno e trasferirvi l'impasto
-              della pizza, stendendola con le mani un poco infarinate.
-              Cuociamo al massimo della temperatura per 20-25 minuti.
-            </p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-  <br>
-  <h3>Videoricetta</h3>
- 
-  <section id="video">
-    <p align="center">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/_GpFK07WEuk" title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-    </p>
-  </section>
-  <br>
-  <div align="center">
-    <section id="abbinamenti">
-      <h2>Cerchi una birra da abbinare alla tua pizza gluten free?</h2>
-      <p>Ecco le nostre proposte direttamente dai birrifici artigianali delle Sardegna</p>
-      <ul>
-        <li><a href="https://www.birramezzavia.it/birre/primula" target=”_blank”>Primula - Mezzavia</a></li>
-        <li><a href="https://www.shardanabeerbrothers.it/entula-gallery" target=”_blank”>Entula - Shardana Beer
-            Brothers</a></li>
-        <li><a href="https://www.birrificiocoros.it/prodotto/almira-gluten/" target=”_blank”>Almira - Coros</a></li>
-        <li><a href="https://www.ilbirrificiodicagliari.com/le-birre-classiche/">Bonaria - Il Birrificio di Cagliari</a>
-        </li>
-        <li><a href="https://www.doppiomalto.com/it/birre/">Super Chiara - Doppio Malto</a></li>
-      </ul>
-    </section>
-  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+    </script>
+    <script src="./assets/scripts/index.js"></script>
 </body>
 </html>
