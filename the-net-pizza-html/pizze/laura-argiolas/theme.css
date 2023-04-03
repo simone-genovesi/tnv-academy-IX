@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Satisfy&display=swap');
+
+:root {
+    --primary: #C75766;
+    --accent: #C2D770;
+    --link: #993341;
+    --linkActive: #5C1F27;
+    --linkVisited: #CE8147;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', display;
+    font-size: 28px;
+    color: var(--primary);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Comfortaa", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Satisfy", display;
+    color: var (--primary);
+    align-items: center;
+}
+
+p{
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-image: url('./images/malaguena.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 3px 5px lightgray;
+}
+
+header h1 {
+    color: white;
+    font-size: 128px;
+    margin: 0;
+    text-shadow: 2px 2px 4px black;
+}
+
+header p {
+    color: white;
+    font-family: "Comfortaa", display;
+    font-size: 24px;
+    
+    display: flex;
+    text-shadow: 2px 2px 4px black;
+}
+
+.section-title {
+    color: var(--primary);
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.separator {
+    width: 100px;
+    height: 4px;
+    background-color: var(--accent);
+    margin: 0 auto;
+}
+
+a {
+    color: var(--link);
+}
+
+a:active {
+    color: var(--linkActive);
+}
+
+a:visited {
+    color: var(--linkVisited);
+}
+ 
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-hover:hover {
+    cursor: pointer;
+    border: 3px solid var(--link);
+  }
+
+.card text-bg-dark {
+    font-size: 20px;
+    text-align: center;
+}  
+
+.accordion{
+    align-items: center;
+}
+
+.accordion-item .accordion-button {
+    background-color: var(--primary);
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.accordion-item .accordion-button:not(.collapsed) {
+    background-color: var(--accent);
+    color: black;
+    }
+
+.preparazioni-extra {
+     margin: 20px;
+}
+
+footer {
+    background-color: var(--accent);
+    color: white;
+    width: 100%;
+    display: flex;
+}
+
+.footer-section-title{
+    color: var(--primary);
+}
+
+table {
+    border: 1px solid var(--primary);
+    width: 80%;
+    align-items: center;
+}
+
+table td, table th {
+    padding: 4px;
+    text-align: left;
+}
+
+table th {
+    background-color: white;
+    color: var(--primary);
+}
+
+.tabella{
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.curiosita h3{
+    margin: 10px;
+}
+
+input[type="submit"] {
+    margin: 8px 0;
+    background-color: var(--linkActive);
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+form{
+    font-family: "Comfortaa", sans-serif;
+    color: black;
+}
+
+
+footer p {
+    color:black;
+    text-align:left;
+}
+
+.tabella{
+    align-items: center;
+}
+
+.info-finali{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    font-family: "Comfortaa", sans-serif;
+}
+
+

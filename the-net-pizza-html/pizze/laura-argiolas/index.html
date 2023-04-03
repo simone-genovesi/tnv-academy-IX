@@ -1,99 +1,402 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
-        <title>La malagueña</title>
-    </head>
-    <body>
-        <h1>Pizza Malagueña</h1>
-        <p>Una pizza originale creata da <a href="https://www.facebook.com/people/Ciuexi/100063644947167/">Ciuexi</a>, fresca e saporita: la preferita di Laura Argiolas!<p>
 
-        <img src="./images/malaguena.jpg" title="Pizza Malagueña - © Ciuexi" width="500"
-        alt="Pizza Malagueña"
-        />
+<head>
+  <title>La malagueña</title>
+  <link rel="stylesheet" href="./theme.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
 
-        <h2>Ingredienti</h2>
-        <ul>
-            <li><a href="https://it.wikipedia.org/wiki/Farina">Farina</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Acqua">Acqua</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Olio_di_oliva#Olio_di_oliva_%22extra_vergine%22">Olio extravergine d'oliva</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Saccharomyces_cerevisiae">Lievito di birra</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Sale">Sale</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Mozzarella">Mozzarella</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Octopus_vulgaris">Polpo</a></li>
-            <li><a href="https://it.wikipedia.org/wiki/Guacamole">Guacamole</a></li>
-            <li>Chips di <a href="https://www.cure-naturali.it/articoli/alimentazione/nutrizione/patate-viola-proprieta-e-benefici.html"> patate viola</a></li>
+<body>
+
+
+  <!-- HEADER -->
+
+  <header>
+    <h1>Pizza Malagueña</h1>
+    <p>Una pizza originale creata da Ciuexi, fresca e saporita: la preferita di Laura Argiolas!</p>
+  </header>
+
+  <nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">The Net Pizza</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">I nostri piatti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Contatti</a>
+          </li>
         </ul>
+      </div>
+    </div>
+  </nav>
 
-        <h2>Ricetta</h2>
-        <p>Per preparare la pizza Malagueña è necessario avviare precedentemente la preparazione di alcuni ingredienti:</p>
 
-        <a href="./Preparazioni/polpo.html"><strong>Preparazione del polpo</strong></a>
-        <a href="./Preparazioni/guacamole.html"><strong>Preparazione del Guacamole</strong></a>
+  <div class="container">
 
-        <h3>Procedimento:</h3>
-        <ol>
-            <li>Dopo aver preparato l'<a href="https://ricette.giallozafferano.it/Impasto-per-pizza.html">impasto per la pizza</a>,
-                stendiamolo creando una base tonda.</li>
-            <li>Disponiamo la mozzarella tagliata a cubetti.</li>
-            <li>Aggiungiamo ora il polpo <a href="./Preparazioni/polpo.html">preparato precedentemente.</a></li>
-            <li>Tagliamo le patate viola in sottili chips e disponiamole sulla pizza.</li>
-            <li>Inforniamo la pizza.</li>
-            <li>Una volta cotta aggiungiamo il guacamole a crudo.</li>   
-        </ol>
 
-        <h2>Buon appetito!</h2>
+    <div class="row">
 
-        <table border="1">
-            <thead>
-                <tr>
-                    <th><strong>Valore per 350 g</strong></th>
-                    <th><strong>Acqua (g)</strong></th>
-                    <th><strong>Proteine (g)</strong></th>
-                    <th><strong>Grassi (g)</strong></th>
-                    <th><strong>Carboidrati (g)</strong></th>
-                    <th><strong>Energia (kcal)</strong></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Pizza Malagueña</strong></td>
-                    <td>156,75</td>
-                    <td>35,45</td>
-                    <td>40,65</td>
-                    <td>282,65</td>
-                    <td>1871</td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <h2>Curiosità</h2>
-            <ul>
-                <li>La pizza Malagueña è una <em>special edition stagionale</em> di <a href="https://italy.worldplaces.me/view-place/67799170-ciuexi.html">Ciuexi</a>. Puoi gustarla solo nel mese di giugno, non perdertela!</li>
-                <li>Il suo nome deriva da una danza tipica spagnola.</li>
-            </ul>
 
-         
-        <button>13,50€</button>
+      <div class="row">
+        <div class="col-12 pt-4 pb-2">
+          <h2 class="section-title">Ingredienti</h2>
+          <div class="separator"></div>
+        </div>
+      </div>
 
+
+      <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card card-hover" onclick="window.location.href='https://it.wikipedia.org/wiki/Farina';">
+          <img class="card-img-top" src="./images/farina.jpg" class="card-img-top" alt="farina">
+          <div class="card-body">
+            <h5 class="card-title">Farina</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card card-hover" onclick="window.location.href='https://it.wikipedia.org/wiki/Acqua';">
+          <img class="card-img-top" src="./images/acqua.jpg" class="card-img-top" alt="acqua">
+          <div class="card-body">
+            <h5 class="card-title">Acqua</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card card-hover"
+          onclick="window.location.href='https://it.wikipedia.org/wiki/Olio_di_oliva#Olio_di_oliva_%22extra_vergine%22';">
+          <img class="card-img-top" src="./images/olio.jpg" class="card-img-top" alt="Olio-extravergine-di-oliva">
+          <div class="card-body">
+            <h5 class="card-title">Olio extravergine di oliva</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card card-hover"
+          onclick="window.location.href='https://it.wikipedia.org/wiki/Saccharomyces_cerevisiae';">
+          <img class="card-img-top" src="./images/lievito-di-birra.jpg" class="card-img-top" alt="lievito-di-birra">
+          <div class="card-body">
+            <h5 class="card-title">Lievito di birra</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card card-hover" onclick="window.location.href='https://it.wikipedia.org/wiki/Sale';">
+          <img class="card-img-top" src="./images/sale.jpg" class="card-img-top" alt="sale">
+          <div class="card-body">
+            <h5 class="card-title">Sale</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card card-hover" onclick="window.location.href='https://it.wikipedia.org/wiki/Mozzarella';">
+          <img class="card-img-top" src="./images/mozzarella.jpg" class="card-img-top" alt="mozzarella">
+          <div class="card-body">
+            <h5 class="card-title">Mozzarella</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card card-hover" onclick="window.location.href='https://it.wikipedia.org/wiki/Octopus_vulgaris';">
+          <img class="card-img-top" src="./images/polpo.jpg" class="card-img-top" alt="polpo">
+          <div class="card-body">
+            <h5 class="card-title">Polpo</h5>
+            <a href="./Preparazioni/polpo.html" class="card-link">Scopri come prepararlo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card card-hover" onclick="window.location.href='./Preparazioni/guacamole.html';">
+          <img class="card-img-top" src="./images/guacamole.jpg" class="card-img-top" alt="guacamole">
+          <div class="card-body">
+            <h5 class="card-title">Guacamole</h5>
+            <a href="./Preparazioni/guacamole.html" class="card-link">Scopri come prepararlo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card card-hover"
+          onclick="window.location.href='https://www.cure-naturali.it/articoli/alimentazione/nutrizione/patate-viola-proprieta-e-benefici.html';">
+          <img class="card-img-top" src="./images/chips-di-patate-viola.jpg" class="card-img-top"
+            alt="chips-patate-viola">
+          <div class="card-body">
+            <h5 class="card-title">Chips di patate viola</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <!--RICETTA-->
+
+
+    <div class="row  justify-content-center">
+      <div class="col-12 pt-4 pb-2">
+        <h2 class="section-title">Ricetta</h2>
+        <div class="separator"></div>
+      </div>
+
+      <p>Per preparare la pizza Malagueña è necessario avviare precedentemente la preparazione di alcuni ingredienti:
+      </p>
+
+      <section class="preparazioni-extra">
+        <div class="row  justify-content-center">
+
+          <div class="card card-hover text-bg-dark col-12 col-md-5 mx-1 my-2"
+            onclick="window.location.href='./Preparazioni/polpo.html';">
+            <img src="./images/polpo.jpg" class="card-img" alt="preparazione-polpo">
+            <div class="card-img-overlay d-flex justify-content-center align-items-center">
+              <h3 class="card-title text-center">Preparazione del polpo</h3>
+            </div>
+          </div>
+
+
+          <div class="card card-hover text-bg-dark col-12 col-md-5 mx-2 my-2"
+            onclick="window.location.href='./Preparazioni/guacamole.html';">
+            <img src="./images/guacamole.jpg" class="card-img" alt="preparazione-guacamole">
+            <div class="card-img-overlay d-flex justify-content-center align-items-center">
+              <h3 class="card-title text-center">Preparazione del guacamole</h3>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+    </section>
+
+
+    <!--PROCEDIMENTO-->
+    <div class="row">
+      <div class="col-12 pt-4 pb-2">
+        <h3 class="section-title">Procedimento</h3>
+        <div class="separator"></div>
+      </div>
+    </div>
+
+    <!--ACCORDION CON RICETTA-->
+
+
+    <div class="row justify-content-center">
+
+      <div class="accordion col-12 col-md-10" id="accordionRecipe">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Step 1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">Dopo aver preparato l'<strong><a
+                  href="https://ricette.giallozafferano.it/Impasto-per-pizza.html">impasto per la
+                  pizza</a></strong>, stendiamolo creando una base tonda.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Step 2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body"> Disponiamo la <strong>mozzarella</strong> tagliata a cubetti.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Step 3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Aggiungiamo ora il <strong>polpo</strong> <a href="./Preparazioni/polpo.html">preparato
+                precedentemente.</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Step 4
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Tagliamo le <strong>patate viola</strong> in sottili chips e disponiamole sulla pizza.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Step 5
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Inforniamo la pizza.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Step 6
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Una volta cotta aggiungiamo il <strong>guacamole</strong> a crudo.
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!--ALTRO-->
+
+    <div class="row justify-content-center">
+      <div class="col-12 pt-4 pb-2">
+        <h2 class="section-title">Buon appetito!</h2>
+      </div>
+
+
+      <table class="tabella col-10">
+        <thead>
+          <tr>
+            <th><strong>Valore per 350 g</strong></th>
+            <th><strong>Acqua (g)</strong></th>
+            <th><strong>Proteine (g)</strong></th>
+            <th><strong>Grassi (g)</strong></th>
+            <th><strong>Carboidrati (g)</strong></th>
+            <th><strong>Energia (kcal)</strong></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Pizza Malagueña</strong></td>
+            <td>156,75</td>
+            <td>35,45</td>
+            <td>40,65</td>
+            <td>282,65</td>
+            <td>1871</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+<!--CURIOSITA-->
+
+
+
+    <section class="curiosita">
+
+      <div class="row">
+        <div class="col-12">
+          <div>
+            <div class="separator"></div>
+            <h3 class="section-title">Curiosità</h3>
+            <p>La pizza Malagueña è una <em>special edition stagionale</em> di <a
+                href="https://italy.worldplaces.me/view-place/67799170-ciuexi.html">Ciuexi</a>. Puoi gustarla solo nel
+              mese di <strong>giugno</strong>, non perdertela!</p>
+            <p>Il suo nome deriva da una danza tipica spagnola.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--DOLCI CONSIGLIATI-->
+
+<section class="menu">
+    
+  <div class="row" id="dolci">
+    <div class="col-12 pt-5 pb-2">
+      <h2></h2>
+    </div>
+  </div>
+
+  
+</section>
+
+
+
+</div>
+
+
+
+  <!-- FOOTER -->
+
+  <footer class="container-fluid p-2 p-lg-5">
+    <div class="row">
+      <section class="ordina col-12 col-lg-4">
+        <h2 class="footer-section-title">Ordina ora:</h2>
 
         <form>
-                     
-            <fieldset>
-                <legend>Completa la tua pizza:</legend>
-                <input type="checkbox" name="services">Mozzarella senza lattosio (nessuna variazione di prezzo) 
-                <br>
-                <input type="checkbox" name="services">Pizza ridotta (-0,50€)
-                <br>
-                <input type="checkbox" name="services">Pizza gigante (+1,00€)
-                <br>
-            </fieldset>
+          <label for="name">Nome</label>
+          <input id="name" type="text">
+          <br>
+          <label for="telefono">Numero di telefono</label>
+          <input id="telefono" type="number">
+          <br>
+          <label for="indicazioni">Indicazioni</label>
+          <input id="indicazioni" type="textarea">
+
         </form>
+      </section>
+      <section class="where-we-are col-12 col-lg-4">
+        <h2 class="footer-section-title">Oppure vieni a trovarci</h2>
+        <p>Ci troviamo a Sardara in viale dei Platani 66</p>
+        <iframe width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.600816288882!2d8.823101514461431!3d39.613673912011116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e76065355300cb%3A0x16143cd650114a82!2sCiuexi!5e0!3m2!1sit!2sit!4v1679442238367!5m2!1sit!2sit"
+          style="border: 1px solid black"></iframe>
+      </section>
+      <section class="where-we-are col-12 col-lg-4">
+        <h2 class="footer-section-title"><a href="../../index.html">Torna al menù</a></h2>
+        <p>Questa pagina è realizzata da Laura Argiolas</p>
+      </section>
+    </div>
+  </footer>
 
-        <h3>Vieni a trovarci:</h3>
-        <p>La pizzeria <strong>Ciuexi</strong> è a Sardara in viale dei Platani 66</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.600816288882!2d8.823101514461431!3d39.613673912011116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e76065355300cb%3A0x16143cd650114a82!2sCiuexi!5e0!3m2!1sit!2sit!4v1679442238367!5m2!1sit!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <br>
-        <a href="../../index.html">Torna al menù</a>
-    </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="./scripts/index.js"></script>
+
+</body>
+
 </html>

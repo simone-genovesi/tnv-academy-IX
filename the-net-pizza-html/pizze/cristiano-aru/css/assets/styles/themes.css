@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Ubuntu:wght@300&display=swap');
 
 body{
@@ -46,4 +47,54 @@ h1{
 
 h2 {
     font-family: 'Ubuntu', cursive;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: url("../images/pizza-forno-legna-cancerogena.jpg");
+    background-size: cover;
+    background-position-y: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+header h1, header h2, header p {
+    color: white;
+}
+
+header p {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1{
+    font-family: 'Lilita One', cursive;
+}
+
+h2 {
+    font-family: 'Ubuntu', cursive;
+>>>>>>> 5c04201703ec8d6a88bb61c6734c7f42740247a2
 }
