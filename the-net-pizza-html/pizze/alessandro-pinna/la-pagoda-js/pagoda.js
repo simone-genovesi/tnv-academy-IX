@@ -12,7 +12,7 @@ function renderDailyDish(piatti){
     `<div class="card">
     <img src="${piatti[id].imageUrl}">
     <div class="card-body">
-      <a href=""><h5 class="card-title">${piatti[id].title}</h5></a>
+      <a href=""class="card-link text-decoration-none"><h5 class="card-title">${piatti[id].title}</h5></a>
       <p class="card-text">${piatti[id].description}</p>
     </div>
     </div>`;
