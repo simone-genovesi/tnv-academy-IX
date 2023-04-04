@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1, h2, h3, h4, h5, th {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    background-image: url('../images/pizza.wp.jpeg');
+    background-size: cover;
+    background-position-y: center;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+header h1 {
+    color: white;
+    font-size: 80px;
+    margin: 0;
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  header p {
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2.3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+  nav ul li {
+    margin-right: 16px;
+  }
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 64px;
+    
+}
+
+.container section {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.section-title {
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.separator {
+    width: 100px;
+    height: 4px;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+  .ingredienti h3 {
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+  
+
