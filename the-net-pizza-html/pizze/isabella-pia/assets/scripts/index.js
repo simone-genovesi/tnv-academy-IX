@@ -25,7 +25,7 @@ const renderSection = (sectionName, sectionId, piatti) => {
 }
 
 const renderMenu = (piatti) => {
-    renderSection('Dolci', 'dolci', piatti);
+    renderSection('Dolci da abinare', 'dolci', piatti);
 }
 
 fetch('https://my-json-server.typicode.com/michelefenu/tnv-academy-IX/piatti')
