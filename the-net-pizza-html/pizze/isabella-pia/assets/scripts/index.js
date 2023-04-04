@@ -19,8 +19,6 @@ const renderSection = (sectionName, sectionId, piatti) => {
                         <p class="card-text">${piatto.description}</p>
                     </div>
                 </div>
-
-        
         `;
         sectionElement.appendChild(cardContainer);
     }
