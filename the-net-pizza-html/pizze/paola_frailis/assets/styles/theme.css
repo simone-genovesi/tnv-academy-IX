@@ -36,7 +36,7 @@ header {
 
 header h1 {
     color: white;
-    font-size: 128px;
+    font-size: 110px;
     margin: 0;
     text-shadow: 2px 2px 4px black;
 }
@@ -69,14 +69,11 @@ header p {
     margin: 0;
 }
 
-.separator {
-    width: 100px;
-    height: 4px;
-    background-color: #c80125;
-    margin: 0 auto;
+.ingredienti h3 {
+    font-size: 1.5em;
 }
 
-.menu h3 {
+.recensione h3 {
     font-size: 1.5em;
 }
 
@@ -93,6 +90,7 @@ a:hover {
 footer {
     background-color: #8C2703;
     color: white;
+    padding: 20px;
 }
 
 table {
