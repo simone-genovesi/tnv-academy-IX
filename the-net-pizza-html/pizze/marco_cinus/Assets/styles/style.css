@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Lobster&family=Pacifico&family=Roboto&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.head-banner{
+    background-color: #d6d5d5;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url(https://molinovigevano.com/wp-content/uploads/sites/2/2019/06/42-28877673.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.head-banner h1{
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+
+.head-banner p{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+.descrizione-pizza{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.descrizione-pizza p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.descrizione-pizza h2{
+    font-family: 'Lobster', cursive;
+}
+
+.ingredienti-pizza{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.ingredienti-pizza h5, p, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ingredienti-pizza h2{
+    font-family: 'Lobster', cursive;
+}
+
+.ingredienti-condimento{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.ingredienti-condimento h5, p, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ingredienti-condimento h2{
+    font-family: 'Lobster', cursive;
+}
+
+.ricetta-pizza{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.ricetta-pizza li{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ricetta-pizza h2{
+    font-family: 'Lobster', cursive;
+}
+
+.piatti-consigliati h2{
+    font-family: 'Lobster', cursive;
+}
+
+.piatti-consigliati h5, p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.piatti-consigliati{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.birra-consigliata{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.birra-consigliata h5, p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.birra-consigliata h2{
+    font-family: 'Lobster', cursive;
+}
+
+.tabella-nutrizionale{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.commenti{
+    background-color: #d6d5d5;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url(https://molinovigevano.com/wp-content/uploads/sites/2/2019/06/42-28877673.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.commenti h2, input, button{
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 768px){
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
