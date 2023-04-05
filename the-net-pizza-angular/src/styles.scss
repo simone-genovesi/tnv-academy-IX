@@ -1,5 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'bootstrap/dist/css/bootstrap-grid.min.css';
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.container section {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.section-title {
+    color: #0371A6;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.separator {
+    width: 100px;
+    height: 4px;
+    background-color: #c1922e;
+    margin: 0 auto;
+}
+
+.menu h3 {
+    font-size: 1.5em;
+}
+
+a {
+    color: #730217;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c80125;
+    text-decoration: underline;
+}

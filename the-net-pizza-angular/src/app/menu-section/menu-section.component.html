@@ -1,1 +1,6 @@
-<p>menu-section works!</p>
+<div class="row">
+  <div class="col-12 pt-5 pb-2">
+    <h3>{{ sectionName }}</h3>
+  </div>
+  <app-menu-item *ngFor="let menuItem of menuItems" [piatto]="menuItem" class="col-12 col-sm-6 col-md-4 py-2"></app-menu-item>
+</div>

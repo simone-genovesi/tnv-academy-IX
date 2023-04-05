@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Piatto } from '../@models/piatto';
 
 @Component({
   selector: 'app-menu-section',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class MenuSectionComponent {
 
+  @Input() sectionName: string = '';
+  @Input() menuItems: Piatto[] = [];
 }
