@@ -12,15 +12,20 @@
 
 
 .pizza h2{
-    font-family: 'Pacifico', cursive;
-    font-size: 25px;
+    
+  font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
     text-align: center;
+    color: #9e1f14;
+    text-shadow: 5px 5px 7px #1e181772;
+    
 }
 
 .nomepizza h1 {
     font-family: 'Pacifico', cursive;
-    color:rgb(216, 221, 225);
+    color:rgb(103, 112, 121);
     text-shadow: 5px 5px 3px rgb(18, 18, 17);
+    font-size: px;
     
 }
 
@@ -29,15 +34,14 @@
     color:rgb(216, 221, 225);
 }
 
-h2{
-    color: #A6261B;
-    text-shadow: 5px 5px 7px #1e1817;
-    
-}
+
+
 
  h3, h4 {
-    color: #007372;
-    text-shadow: 5px 5px 7px #1e1817;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: #006c6a;
+    text-shadow: 5px 5px 7px #1e18177b;
 }
 
 .ingredienti {
@@ -55,7 +59,7 @@ footer{
     
     background-color: rgba(250, 235, 215, 0);
     width: 90%; 
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 ul {
@@ -104,21 +108,23 @@ nav h4{
     margin: 10px;
 }
 
+
+
 .container2 {
     position: relative;
     text-align: center;
+   
   }
+
 
   .container2 h1 {
     position: absolute;
-    top: 70px;
+    top: 40px;
     left: 0;
     width: 100%;
-    color: aliceblue;
+    color: rgb(198, 206, 214);
     font-family: 'Pacifico', cursive;
-    text-shadow:5px 5px 5px rgb(11, 10, 10); ;
-    
-    /* Aggiungere altri stili a piacere */
+    text-shadow:5px 5px 5px rgb(11, 10, 10);
   }
 
   .navbar{
@@ -126,7 +132,7 @@ nav h4{
   }
 
   .navbar h4{
-    color: black;
+    color: rgb(71, 58, 58);
     font-size: 20px;
   }
 
@@ -141,6 +147,26 @@ nav h4{
   .piattiDelGiorno h4{
     text-align: center;
   }
+
+  a{
+    color: #9e1f14;
+  }
+
+
+  
+  
+   
+  @media screen and (maxwidth: 600px) {
+  div.ciao {
+  font-size: 100px;
+  }
+  }
+
+  
+
+  
+
+  
  
 
 
