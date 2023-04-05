@@ -5,8 +5,8 @@
     [alt]="piatto.title"
   />
   <mat-card-header>
-      <mat-card-title>{{ piatto.title }}</mat-card-title>
-      <mat-card-subtitle>{{ piatto.price }} $</mat-card-subtitle>
+      <mat-card-title>{{ piatto.title | titlecase }}</mat-card-title>
+      <mat-card-subtitle>{{ piatto.price | currency:'€'}}</mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>
     <p>
