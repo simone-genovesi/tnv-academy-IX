@@ -21,7 +21,7 @@ function renderDailyDish(piatti){
 }
 
 //Recupera i dati dal file JSON utilizzando fetch
-fetch('http://my-json-server.typicode.com/michelefenu/tnv-academy-IX/piatti/')
+fetch('https://my-json-server.typicode.com/michelefenu/tnv-academy-IX/piatti/')
   .then(risposta => risposta.json())
   .then(risposta => renderDailyDish(risposta))
   .catch(errore => console.log(errore));
