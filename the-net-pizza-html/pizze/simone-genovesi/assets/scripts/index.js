@@ -2,17 +2,11 @@ const renderSection = (sectionName, sectionId, piatti) => {
     const sectionTitleElement = document.querySelectorAll(`#${sectionId} h3`)[0];
     sectionTitleElement.innerText = sectionName;
 
-    const newPiatti = [];
-    while(newPiatti.length < 3) {
-        const randomNumber = getRandomInt(13);
-        if(!newPiatti.includes(piatti[randomNumber])) {
-            newPiatti.push(piatti[randomNumber]);
-        }
-    }    
+    const filteredPiatti = piatti.sort(() => Math.random() - 0.5).slice(0,3);
 
     const sectionElement = document.getElementById(sectionId);
 
-    for(let piatto of newPiatti) {
+    for(let piatto of filteredPiatti) {
         const cardContainer = document.createElement('div');
         cardContainer.classList.add('col-12', 'col-sm-6', 'col-md-4', 'py-2');
 
@@ -44,10 +38,6 @@ const renderMenu = (piatti) => {
 
     const menuDiv = document.getElementById('menu');
     menuDiv.style.display = 'block';
-}
-
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
 }
 
 fetch('https://my-json-server.typicode.com/michelefenu/tnv-academy-IX/piatti')
